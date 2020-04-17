@@ -1,5 +1,4 @@
 import 'dart:async';
-import 'package:Core/core/cart/bloc/core_cart_bloc.dart';
 import 'package:Core/core/config_json/db/config_json_provider.dart';
 import 'package:Core/core/database/appdatabaseinfo.dart';
 import 'package:Core/core/database/dbhelper.dart';

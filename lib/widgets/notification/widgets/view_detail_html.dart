@@ -1,6 +1,5 @@
 import 'package:Core/core/custom_translate/public.dart';
 import 'package:Core/utils/index.dart';
-import 'package:Core/widgets/detail_product/widget/app_bar_simple.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_html/flutter_html.dart';
@@ -26,7 +25,6 @@ class _ViewDetailNotifiHtmlState extends State<ViewDetailNotifiHtml> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBarBackSimple(),
         backgroundColor: Colors.white,
         body: SingleChildScrollView(
           child: _parseHtmlString(widget.html) != ''

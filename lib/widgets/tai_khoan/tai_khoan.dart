@@ -6,20 +6,12 @@ import 'package:Core/core/config_json/models/config_json.dart';
 import 'package:Core/core/translate/public.dart';
 import 'package:Core/core/page-core/widget_custom.dart';
 import 'package:Core/utils/index.dart';
-import 'package:Core/widgets/hoa-hong-page/tong_hoa_hong_page.dart';
-import 'package:Core/widgets/midas-rewards/midas_rewards_page.dart';
 import 'package:Core/widgets/ngon_ngu/ngon_ngu.dart';
-import 'package:Core/widgets/qua_tang_xac_thuc/qua_tang_xac_thuc.dart';
-import 'package:Core/widgets/quan_ly_don_hang/quan_ly_don_hang_list_page.dart';
 import 'package:Core/widgets/tai_khoan/tai_khoan_variable.dart';
 import 'package:Core/widgets/tai_khoan/widgets/item.dart';
 import 'package:Core/widgets/tai_khoan/widgets/item_quanly.dart';
 import 'package:Core/widgets/tai_khoan/widgets/item_user_thuong.dart';
-import 'package:Core/widgets/thanh_vien_f2_f3/thanh_vien_page.dart';
 import 'package:Core/widgets/thongtin_canhan/index.dart';
-import 'package:Core/widgets/tra_cuu/tra_cuu_page.dart';
-import 'package:Core/widgets/upgrade_account/info_account_salon.dart';
-import 'package:Core/widgets/upgrade_account/upgrade_account.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:package_info/package_info.dart';
@@ -151,14 +143,6 @@ class _TaiKhoanState extends State<TaiKhoan> {
         },
       ),
       ItemTaiKhoan(
-        onPressed: () => goToPage(TraCuuPage()),
-        child: Text(
-          tr('account_5'),
-          style: style15,
-        ),
-        icon: true,
-      ),
-      ItemTaiKhoan(
         onPressed: () {
           goToPage(NgonNguPage());
         },
@@ -203,49 +187,14 @@ class _TaiKhoanState extends State<TaiKhoan> {
           color: borderSide.color,
           tiles: [
             userLogin(profile),
-
-            ///Nếu quyền SALON menu này ẩn
-            ///Nếu đã xác thực rồi.... có người giới thiêu .... hiển thị nội dung khác như giao diện
-            profile.userEnum != LOAI_USER.SALON
-                ? Container(
-                    color: Colors.white,
-                    child: profile.quaTang
-                        ? ItemUserNormal(
-                            image: 'assets/icon_menu/check.svg',
-                            title: tr('account_20'),
-                            detail: false,
-                          )
-                        : BlocBuilder<ConfigjsonBloc, ConfigJson>(
-                            builder: (BuildContext context, ConfigJson state) {
-                              return ItemUserNormal(
-                                onPressed: openDialogQuaTang,
-                                image: 'assets/icon_menu/gift.svg',
-                                title: tr('account_9',
-                                    args: [state?.dataQT?.text]),
-                                subtitle: tr('account_10'),
-                              );
-                            },
-                          ),
-                  )
-                : Container(),
-
-            ///Menu chỗ này nếu quyền SALON hiển thị text thành "Thông tin SALON"
-            profile.userEnum == LOAI_USER.SALON
-                ? ItemUserNormal(
-                    onPressed: () => goToPage(InfoAccountSalon()),
-                    image: 'assets/icon_menu/king.svg',
-                    title: tr('account_12'),
-                  )
-                : ItemUserNormal(
-                    onPressed: () => goToPage(UpgradeAccount()),
-                    image: 'assets/icon_menu/king.svg',
-                    title: tr('account_11'),
-                    subtitle: tr('account_13'),
-                  )
+            ItemUserNormal(
+              onPressed: () => {},
+              image: 'assets/icon_menu/king.svg',
+              title: tr('account_12'),
+            )
           ],
         ).toList());
   }
-
   Widget userLogin(Profile profile) {
     return Material(
       color: Colors.white,
@@ -328,49 +277,14 @@ class _TaiKhoanState extends State<TaiKhoan> {
   }
 
   List<Widget> itemQuanLy() {
-    final user = (BlocProvider.of<AuthenticationBloc>(context).state
-            as AuthenticationAuthenticated)
-        .user;
-    final listMenu = user.menuID;
-
     List<Widget> menu = [
       ItemQuanLy(
-        onPressed: () => goToPage(QuanLyDonHangList()),
+        onPressed: () =>{},
         image: 'assets/icon_menu/order-history.svg',
         title: tr('account_14'),
         subtitle: tr('account_15'),
       ),
     ];
-
-    if (listMenu.indexOf(MENU_HOAHONG) != -1) {
-      menu.add(
-        ItemQuanLy(
-          onPressed: () => goToPage(HoaHongPage()),
-          image: 'assets/icon_menu/commission.svg',
-          title: tr('account_16'),
-        ),
-      );
-    }
-
-    if (listMenu.indexOf(MENU_THANHVIEN) != -1) {
-      menu.add(
-        ItemQuanLy(
-          onPressed: () => goToPage(ThanhVienPage()),
-          image: 'assets/icon_menu/member-com.svg',
-          title: tr('account_17'),
-        ),
-      );
-    }
-
-    menu.add(
-      ItemQuanLy(
-        onPressed: () => goToPage(MidasRewardsPage()),
-        image: 'assets/icon_menu/reward.svg',
-        title: tr('account_18'),
-        divider: false,
-      ),
-    );
-
     return menu;
   }
 
@@ -378,7 +292,6 @@ class _TaiKhoanState extends State<TaiKhoan> {
     Navigator.of(context)
         .push(MaterialPageRoute(builder: (_) => WidgetsCore(widget: page)));
   }
-
   buttonDangXuat() {
     return Padding(
       padding: EdgeInsets.symmetric(
@@ -414,22 +327,6 @@ class _TaiKhoanState extends State<TaiKhoan> {
       },
     );
   }
-
-  openDialogQuaTang() {
-    showDialog(
-      context: context,
-      builder: (BuildContext context) => WidgetsCore(widget: QuaTangXacThuc(
-        onSuccess: () {
-          BlocProvider.of<AuthenticationBloc>(context).add(
-            UpdateUser(
-              new Profile(quaTang: true),
-            ),
-          );
-        },
-      )),
-    );
-  }
-
   phoneCall(String number) {
     launch("tel://$number");
   }
