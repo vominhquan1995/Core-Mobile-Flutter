@@ -1,6 +1,5 @@
 import 'package:Core/core/authentication/db/authen_provider.dart';
 import 'package:Core/core/bao-tri/db/baotri_provider.dart';
-import 'package:Core/core/cart/db/cart_provider.dart';
 import 'package:Core/core/config_json/db/config_json_provider.dart';
 import 'package:Core/core/database/tables.dart';
 import 'package:Core/core/notification/index.dart';
@@ -34,8 +33,6 @@ class AppDatabaseInfo implements DBInfo, IMigrationTask {
     List<String> dbTableNameList = [];
     dbTableNameList.add(AuthenProvider.TABLE_NAME);
     dbTableNameList.add(BaoTriProvider.TABLE_NAME);
-    dbTableNameList.add(CartProvider.CART_TABLE_NAME);
-    dbTableNameList.add(CartProvider.INFO_TABLE_NAME);
     dbTableNameList.add(QuocGiaDB.TABLE_NAME);
     dbTableNameList.add(NotificationCore.TABLE_NAME);
     dbTableNameList.add(ConfigJsonProvider.TABLE_NAME);
@@ -83,8 +80,6 @@ class AppDatabaseInfo implements DBInfo, IMigrationTask {
     dbSchemaQueryList.add(Tables.CRATE_TABLE_BAOTRI);
     dbSchemaQueryList.add(Tables.CRATE_TABLE_USER);
     dbSchemaQueryList.add(Tables.CREATE_TABLE_QUOCGIA);
-    dbSchemaQueryList.add(Tables.CREATE_TABLE_CART);
-    dbSchemaQueryList.add(Tables.CREATE_TABLE_CART_INFO);
     dbSchemaQueryList.add(Tables.CREATE_TABLE_NOTIFI);
     dbSchemaQueryList.add(Tables.CREATE_TABLE_DATAJSON);
     return dbSchemaQueryList;

@@ -1,7 +1,5 @@
 import 'dart:async';
 import 'dart:io';
-import 'package:Core/core/cart/bloc/index.dart';
-import 'package:Core/core/cart/service/cart_service.dart';
 import 'package:Core/core/config_json/bloc/configjson_bloc.dart';
 import 'package:Core/core/config_json/dataJson_notfound.dart';
 import 'package:Core/core/config_json/models/config_json.dart';
@@ -124,17 +122,6 @@ Future<void> main() async {
       BlocProvider<QuocgiaBloc>(
         create: (context) => QuocgiaBloc(QuocGiaService()),
       ),
-
-      BlocProvider<CoreCartBloc>(
-        create: (context) => CoreCartBloc(service: CoreCartService()),
-      ),
-
-      // BlocProvider<ConfigjsonBloc>(
-      //   create: (context) => ConfigjsonBloc(
-      //     counterStorage: CounterStorage(),
-      //     service: ConfigJsonService(),
-      //   ),
-      // ),
       BlocProvider<ConfigjsonBloc>(
         create: (context) => ConfigjsonBloc(
           service: ConfigJsonService(),
@@ -194,9 +181,6 @@ class MyApp extends StatelessWidget {
               //TODO: nếu đóng ở dưới thì mở ở đây
               BlocProvider.of<QuocgiaBloc>(_).add(CheckQuocGia());
 
-              BlocProvider.of<CoreCartBloc>(_).add(InitCartBadge());
-
-              ///
               ShowOverlay.getInstance().showOverlay(_);
 
               // TODO : Chỉnh sửa ở đây để mở Bảo trì
@@ -288,9 +272,6 @@ class MyApp extends StatelessWidget {
 
               ///
               BlocProvider.of<MenuBloc>(_).add(RemoveMenu());
-
-              ///
-              BlocProvider.of<CoreCartBloc>(_).add(ClearCart());
             }
 
             /// 2: Đã xác định user đã login chạy kiểm tra bảo trì

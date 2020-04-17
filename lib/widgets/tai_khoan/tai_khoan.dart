@@ -1,7 +1,6 @@
 import 'package:Core/core/authentication/bloc/bloc.dart';
 import 'package:Core/core/authentication/login-mobile/index.dart';
 import 'package:Core/core/authentication/models/profile_model.dart';
-import 'package:Core/core/cart/cart_badge.dart';
 import 'package:Core/core/config_json/bloc/configjson_bloc.dart';
 import 'package:Core/core/config_json/models/config_json.dart';
 import 'package:Core/core/translate/public.dart';
@@ -44,9 +43,6 @@ class _TaiKhoanState extends State<TaiKhoan> {
                 tr('account_1'),
                 style: style15_semibold.copyWith(color: Colors.white),
               ),
-            ),
-            CartBadge(
-              color: colorWhite,
             )
           ],
         ),

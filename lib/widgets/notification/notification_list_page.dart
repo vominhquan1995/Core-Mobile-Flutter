@@ -1,6 +1,5 @@
 import 'dart:async';
 import 'package:Core/core/authentication/bloc/bloc.dart';
-import 'package:Core/core/cart/cart_badge.dart';
 import 'package:Core/core/translate/public.dart';
 import 'package:Core/core/data-status/index.dart';
 import 'package:Core/core/page-core/bloc/bloc.dart';
@@ -101,9 +100,6 @@ class _NotificationState extends State<NotificationListPage> {
                   tr('notification_1'),
                   style: style15_semibold.copyWith(color: Colors.white),
                 ),
-              ),
-              CartBadge(
-                color: colorWhite,
               )
             ],
           ),
