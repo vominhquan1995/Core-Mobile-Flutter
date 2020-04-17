@@ -1,6 +1,6 @@
-import 'package:Midas/core/bao-tri/models/baotri.dart';
-import 'package:Midas/core/database/base_db_provider.dart';
-import 'package:Midas/core/database/dbhelper.dart';
+import 'package:Core/core/bao-tri/models/baotri.dart';
+import 'package:Core/core/database/base_db_provider.dart';
+import 'package:Core/core/database/dbhelper.dart';
 
 class BaoTriProvider extends BaseProvider<BaoTriLocal> {
   static const TABLE_NAME = "bao_tri";

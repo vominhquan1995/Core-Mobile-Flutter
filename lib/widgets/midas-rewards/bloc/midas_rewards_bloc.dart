@@ -1,8 +1,8 @@
 import 'dart:async';
 import 'dart:io';
 
-import 'package:Midas/widgets/midas-rewards/model/thong_tin_diem_model.dart';
-import 'package:Midas/widgets/midas-rewards/service/thong_tin_diem_service.dart';
+import 'package:Core/widgets/midas-rewards/model/thong_tin_diem_model.dart';
+import 'package:Core/widgets/midas-rewards/service/thong_tin_diem_service.dart';
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
 import 'package:meta/meta.dart';

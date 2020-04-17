@@ -1,4 +1,4 @@
 library translate;
 
-export 'package:Midas/core/translate/localization.dart';
-export 'package:Midas/core/translate/app_language.dart';
+export 'package:Core/core/translate/localization.dart';
+export 'package:Core/core/translate/app_language.dart';

@@ -1,8 +1,8 @@
 import 'dart:async';
 
-import 'package:Midas/core/authentication/bloc/bloc.dart';
-import 'package:Midas/widgets/my_library/models/sanpham_model.dart';
-import 'package:Midas/widgets/my_library/service/library_service.dart';
+import 'package:Core/core/authentication/bloc/bloc.dart';
+import 'package:Core/widgets/my_library/models/sanpham_model.dart';
+import 'package:Core/widgets/my_library/service/library_service.dart';
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
 import 'package:meta/meta.dart';

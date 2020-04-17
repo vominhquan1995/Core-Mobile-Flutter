@@ -1,5 +1,5 @@
-import 'package:Midas/core/config_json/bloc/configjson_bloc.dart';
-import 'package:Midas/widgets/search/model/search_model.dart';
+import 'package:Core/core/config_json/bloc/configjson_bloc.dart';
+import 'package:Core/widgets/search/model/search_model.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 

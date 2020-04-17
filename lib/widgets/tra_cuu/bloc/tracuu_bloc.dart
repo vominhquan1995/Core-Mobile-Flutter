@@ -1,5 +1,5 @@
 import 'dart:async';
-import 'package:Midas/widgets/tra_cuu/service/tracuu_service.dart';
+import 'package:Core/widgets/tra_cuu/service/tracuu_service.dart';
 import 'package:bloc/bloc.dart';
 import 'package:meta/meta.dart';
 import './bloc.dart';

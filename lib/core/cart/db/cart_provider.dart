@@ -1,7 +1,7 @@
 import 'dart:math';
 
-import 'package:Midas/core/database/dbhelper.dart';
-import 'package:Midas/core/cart/model/cart_model.dart';
+import 'package:Core/core/database/dbhelper.dart';
+import 'package:Core/core/cart/model/cart_model.dart';
 
 const TAG = 'CART_PROVIDER: ';
 

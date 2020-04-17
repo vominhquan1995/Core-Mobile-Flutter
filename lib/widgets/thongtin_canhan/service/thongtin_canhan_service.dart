@@ -1,7 +1,7 @@
 import 'dart:async';
-import 'package:Midas/core/authentication/models/profile_model.dart';
-import 'package:Midas/core/page-core/bloc/errorhandle_bloc.dart';
-import 'package:Midas/core/page-core/service_custom.dart';
+import 'package:Core/core/authentication/models/profile_model.dart';
+import 'package:Core/core/page-core/bloc/errorhandle_bloc.dart';
+import 'package:Core/core/page-core/service_custom.dart';
 
 class ProfileService extends ServiceCustom {
   ProfileService(ErrorhandleBloc bloc) : super(bloc);

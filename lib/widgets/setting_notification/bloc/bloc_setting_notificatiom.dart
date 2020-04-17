@@ -1,7 +1,7 @@
-import 'package:Midas/core/translate/public.dart';
-import 'package:Midas/core/notification/badge_helper.dart';
-import 'package:Midas/utils/notification_util.dart';
-import 'package:Midas/widgets/setting_notification/index.dart';
+import 'package:Core/core/translate/public.dart';
+import 'package:Core/core/notification/badge_helper.dart';
+import 'package:Core/utils/notification_util.dart';
+import 'package:Core/widgets/setting_notification/index.dart';
 import 'package:rxdart/rxdart.dart';
 import 'package:dio/dio.dart';
 import 'package:shared_preferences/shared_preferences.dart';

@@ -1,7 +1,7 @@
-import 'package:Midas/core/page-core/bloc/errorhandle_bloc.dart';
-import 'package:Midas/widgets/lich_su_diem/model/index.dart';
+import 'package:Core/core/page-core/bloc/errorhandle_bloc.dart';
+import 'package:Core/widgets/lich_su_diem/model/index.dart';
 import 'dart:async';
-import 'package:Midas/core/page-core/service_custom.dart';
+import 'package:Core/core/page-core/service_custom.dart';
 import '../../../core/page-core/service_custom.dart';
 
 class LichSuDiemService extends ServiceCustom {

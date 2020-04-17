@@ -1,4 +1,4 @@
-import 'package:Midas/widgets/my_library/models/sanpham_model.dart';
+import 'package:Core/widgets/my_library/models/sanpham_model.dart';
 import 'package:json_annotation/json_annotation.dart';
 
 part 'template_model.g.dart';

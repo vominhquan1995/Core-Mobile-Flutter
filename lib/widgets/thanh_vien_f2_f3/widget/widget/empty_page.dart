@@ -1,8 +1,8 @@
-import 'package:Midas/core/translate/public.dart';
-import 'package:Midas/core/page-core/widget_custom.dart';
-import 'package:Midas/utils/index.dart';
-import 'package:Midas/widgets/shared/text_html/text_html.dart';
-import 'package:Midas/widgets/tra_cuu/tra_cuu_page.dart';
+import 'package:Core/core/translate/public.dart';
+import 'package:Core/core/page-core/widget_custom.dart';
+import 'package:Core/utils/index.dart';
+import 'package:Core/widgets/shared/text_html/text_html.dart';
+import 'package:Core/widgets/tra_cuu/tra_cuu_page.dart';
 import 'package:flutter/material.dart';
 
 class EmptyPage extends StatelessWidget {

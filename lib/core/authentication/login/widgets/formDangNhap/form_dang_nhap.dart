@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:meta/meta.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:Midas/core/authentication/bloc/bloc.dart';
-import 'package:Midas/utils/index.dart';
+import 'package:Core/core/authentication/bloc/bloc.dart';
+import 'package:Core/utils/index.dart';
 
 import '../../bloc/index.dart';
 

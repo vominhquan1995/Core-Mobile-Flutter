@@ -1,7 +1,7 @@
 import 'dart:async';
 
-import 'package:Midas/widgets/detail_product/service/service_detail_product.dart';
-import 'package:Midas/widgets/my_library/models/sanpham_model.dart';
+import 'package:Core/widgets/detail_product/service/service_detail_product.dart';
+import 'package:Core/widgets/my_library/models/sanpham_model.dart';
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
 import 'package:meta/meta.dart';

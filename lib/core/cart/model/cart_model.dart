@@ -1,4 +1,4 @@
-import 'package:Midas/core/cart/db/cart_provider.dart';
+import 'package:Core/core/cart/db/cart_provider.dart';
 import 'package:equatable/equatable.dart';
 
 class CartItemModel extends Equatable {

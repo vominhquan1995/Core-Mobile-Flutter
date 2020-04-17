@@ -1,7 +1,7 @@
-import 'package:Midas/core/page-core/widget_custom.dart';
-import 'package:Midas/utils/index.dart';
-import 'package:Midas/widgets/my_library/models/danhmuc_model.dart';
-import 'package:Midas/widgets/search_results/search_results.dart';
+import 'package:Core/core/page-core/widget_custom.dart';
+import 'package:Core/utils/index.dart';
+import 'package:Core/widgets/my_library/models/danhmuc_model.dart';
+import 'package:Core/widgets/search_results/search_results.dart';
 import 'package:flutter/material.dart';
 import 'package:shimmer/shimmer.dart';
 

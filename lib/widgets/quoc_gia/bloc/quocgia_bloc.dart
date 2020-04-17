@@ -1,8 +1,8 @@
 import 'dart:async';
 
-import 'package:Midas/widgets/quoc_gia/db/quocgia_db.dart';
-import 'package:Midas/widgets/quoc_gia/models/quocgia_model.dart';
-import 'package:Midas/widgets/quoc_gia/service/quocgia_service.dart';
+import 'package:Core/widgets/quoc_gia/db/quocgia_db.dart';
+import 'package:Core/widgets/quoc_gia/models/quocgia_model.dart';
+import 'package:Core/widgets/quoc_gia/service/quocgia_service.dart';
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
 

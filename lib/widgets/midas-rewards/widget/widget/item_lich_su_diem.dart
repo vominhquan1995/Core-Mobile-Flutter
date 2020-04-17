@@ -1,6 +1,6 @@
-// import 'package:Midas/core/translate/public.dart';
-// import 'package:Midas/utils/index.dart';
-// import 'package:Midas/widgets/lich_su_diem/model/index.dart';
+// import 'package:Core/core/translate/public.dart';
+// import 'package:Core/utils/index.dart';
+// import 'package:Core/widgets/lich_su_diem/model/index.dart';
 // import 'package:flutter/material.dart';
 
 // class ItemLichSuDiem extends StatelessWidget {

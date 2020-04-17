@@ -1,9 +1,9 @@
 import 'dart:async';
 import 'package:bloc/bloc.dart';
-import 'package:Midas/core/maintenance-page/db/maintenance_provider.dart';
-import 'package:Midas/core/maintenance-page/maintenance_model.dart';
-import 'package:Midas/core/maintenance-page/maintenance_service.dart';
-import 'package:Midas/utils/index.dart';
+import 'package:Core/core/maintenance-page/db/maintenance_provider.dart';
+import 'package:Core/core/maintenance-page/maintenance_model.dart';
+import 'package:Core/core/maintenance-page/maintenance_service.dart';
+import 'package:Core/utils/index.dart';
 import 'package:rxdart/rxdart.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import './index.dart';

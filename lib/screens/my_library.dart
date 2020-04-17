@@ -1,5 +1,5 @@
-import 'package:Midas/core/page-core/widget_custom.dart';
-import 'package:Midas/widgets/my_library/my_library.dart';
+import 'package:Core/core/page-core/widget_custom.dart';
+import 'package:Core/widgets/my_library/my_library.dart';
 
 import 'package:flutter/material.dart';
 

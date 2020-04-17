@@ -1,9 +1,9 @@
-import 'package:Midas/core/translate/public.dart';
-import 'package:Midas/core/page-core/widget_custom.dart';
-import 'package:Midas/utils/index.dart';
-import 'package:Midas/widgets/cart/cart_list_page.dart';
-import 'package:Midas/widgets/my_library/models/sanpham_model.dart';
-import 'package:Midas/widgets/shared/image-custom/image-custom.dart';
+import 'package:Core/core/translate/public.dart';
+import 'package:Core/core/page-core/widget_custom.dart';
+import 'package:Core/utils/index.dart';
+import 'package:Core/widgets/cart/cart_list_page.dart';
+import 'package:Core/widgets/my_library/models/sanpham_model.dart';
+import 'package:Core/widgets/shared/image-custom/image-custom.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:transparent_image/transparent_image.dart';

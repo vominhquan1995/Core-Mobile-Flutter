@@ -1,7 +1,7 @@
-import 'package:Midas/core/translate/public.dart';
-import 'package:Midas/core/translate/public.dart';
-import 'package:Midas/utils/index.dart';
-import 'package:Midas/widgets/upgrade_account/widgets/qr_scan.dart';
+import 'package:Core/core/translate/public.dart';
+import 'package:Core/core/translate/public.dart';
+import 'package:Core/utils/index.dart';
+import 'package:Core/widgets/upgrade_account/widgets/qr_scan.dart';
 import 'package:flutter/material.dart';
 
 class ButtonSelectAddress extends StatelessWidget {

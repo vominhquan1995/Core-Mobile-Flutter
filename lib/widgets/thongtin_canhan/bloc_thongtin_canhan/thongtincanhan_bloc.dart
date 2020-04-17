@@ -1,7 +1,7 @@
 import 'dart:async';
 
-import 'package:Midas/core/authentication/models/profile_model.dart';
-import 'package:Midas/widgets/thongtin_canhan/service/thongtin_canhan_service.dart';
+import 'package:Core/core/authentication/models/profile_model.dart';
+import 'package:Core/widgets/thongtin_canhan/service/thongtin_canhan_service.dart';
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
 import 'package:flutter/material.dart';

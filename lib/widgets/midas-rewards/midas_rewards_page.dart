@@ -1,18 +1,18 @@
-import 'package:Midas/core/authentication/bloc/bloc.dart';
-import 'package:Midas/core/connection-status/index.dart';
-import 'package:Midas/core/custom_translate/easy_localization.dart';
-import 'package:Midas/core/translate/public.dart';
-import 'package:Midas/core/page-core/bloc/bloc.dart';
+import 'package:Core/core/authentication/bloc/bloc.dart';
+import 'package:Core/core/connection-status/index.dart';
+import 'package:Core/core/custom_translate/easy_localization.dart';
+import 'package:Core/core/translate/public.dart';
+import 'package:Core/core/page-core/bloc/bloc.dart';
 
-import 'package:Midas/core/page-core/widget_custom.dart';
-import 'package:Midas/utils/theme.dart';
-import 'package:Midas/widgets/lich_su_diem/lich_su_diem_list_page.dart';
-import 'package:Midas/widgets/lich_su_rut_diem/lich_su_rut_diem_list_page.dart';
-import 'package:Midas/widgets/midas-rewards/model/huong_dang_model.dart';
-import 'package:Midas/widgets/midas-rewards/service/thong_tin_diem_service.dart';
-import 'package:Midas/widgets/midas-rewards/widget/widget/list_huong_dan.dart';
-import 'package:Midas/widgets/tra_cuu/models/news_model.dart';
-import 'package:Midas/widgets/tra_cuu/news_detail_page.dart';
+import 'package:Core/core/page-core/widget_custom.dart';
+import 'package:Core/utils/theme.dart';
+import 'package:Core/widgets/lich_su_diem/lich_su_diem_list_page.dart';
+import 'package:Core/widgets/lich_su_rut_diem/lich_su_rut_diem_list_page.dart';
+import 'package:Core/widgets/midas-rewards/model/huong_dang_model.dart';
+import 'package:Core/widgets/midas-rewards/service/thong_tin_diem_service.dart';
+import 'package:Core/widgets/midas-rewards/widget/widget/list_huong_dan.dart';
+import 'package:Core/widgets/tra_cuu/models/news_model.dart';
+import 'package:Core/widgets/tra_cuu/news_detail_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

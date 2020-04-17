@@ -1,7 +1,7 @@
-import 'package:Midas/core/page-core/bloc/errorhandle_bloc.dart';
-import 'package:Midas/widgets/quan_ly_don_hang/model/don_hang_model_2.dart';
+import 'package:Core/core/page-core/bloc/errorhandle_bloc.dart';
+import 'package:Core/widgets/quan_ly_don_hang/model/don_hang_model_2.dart';
 import 'dart:async';
-import 'package:Midas/core/page-core/service_custom.dart';
+import 'package:Core/core/page-core/service_custom.dart';
 import '../../../core/page-core/service_custom.dart';
 
 class QuanLyDonHangService extends ServiceCustom {

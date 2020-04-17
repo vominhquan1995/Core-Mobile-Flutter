@@ -1,9 +1,9 @@
-import 'package:Midas/core/page-core/bloc/errorhandle_bloc.dart';
-import 'package:Midas/core/page-core/service_custom.dart';
-import 'package:Midas/widgets/my_library/models/banner_model.dart';
-import 'package:Midas/widgets/my_library/models/danhmuc_model.dart';
-import 'package:Midas/widgets/my_library/models/sanpham_model.dart';
-import 'package:Midas/widgets/my_library/models/template_model.dart';
+import 'package:Core/core/page-core/bloc/errorhandle_bloc.dart';
+import 'package:Core/core/page-core/service_custom.dart';
+import 'package:Core/widgets/my_library/models/banner_model.dart';
+import 'package:Core/widgets/my_library/models/danhmuc_model.dart';
+import 'package:Core/widgets/my_library/models/sanpham_model.dart';
+import 'package:Core/widgets/my_library/models/template_model.dart';
 
 abstract class IBaseLibraryService extends ServiceCustom {
   IBaseLibraryService(ErrorhandleBloc bloc) : super(bloc);

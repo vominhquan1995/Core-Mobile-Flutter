@@ -1,6 +1,6 @@
-import 'package:Midas/core/translate/public.dart';
-import 'package:Midas/screens/layout/tab/bloc/bloc.dart';
-import 'package:Midas/utils/index.dart';
+import 'package:Core/core/translate/public.dart';
+import 'package:Core/screens/layout/tab/bloc/bloc.dart';
+import 'package:Core/utils/index.dart';
 import 'package:flutter/material.dart';
 
 import '../custom_bottom_navigation.dart';

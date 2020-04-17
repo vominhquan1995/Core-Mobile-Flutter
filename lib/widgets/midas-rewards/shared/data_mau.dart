@@ -1,4 +1,4 @@
-// import 'package:Midas/widgets/lich_su_diem/model/index.dart';
+// import 'package:Core/widgets/lich_su_diem/model/index.dart';
 
 // /**
 //  * Thời gian sẽ fomat lại từ api

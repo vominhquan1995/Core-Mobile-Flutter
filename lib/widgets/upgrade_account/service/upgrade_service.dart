@@ -1,6 +1,6 @@
-import 'package:Midas/core/page-core/bloc/bloc.dart';
-import 'package:Midas/core/page-core/service_custom.dart';
-import 'package:Midas/widgets/upgrade_account/model/request_upgrade_model.dart';
+import 'package:Core/core/page-core/bloc/bloc.dart';
+import 'package:Core/core/page-core/service_custom.dart';
+import 'package:Core/widgets/upgrade_account/model/request_upgrade_model.dart';
 import 'package:dio/dio.dart';
 
 class UpgradeAccountService extends ServiceCustom {

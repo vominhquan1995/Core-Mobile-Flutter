@@ -1,6 +1,6 @@
-import 'package:Midas/core/custom_translate/public.dart';
-import 'package:Midas/utils/index.dart';
-import 'package:Midas/widgets/detail_product/widget/app_bar_simple.dart';
+import 'package:Core/core/custom_translate/public.dart';
+import 'package:Core/utils/index.dart';
+import 'package:Core/widgets/detail_product/widget/app_bar_simple.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_html/flutter_html.dart';

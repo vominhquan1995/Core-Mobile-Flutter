@@ -1,8 +1,8 @@
-import 'package:Midas/core/cart/model/cart_model.dart';
-import 'package:Midas/core/translate/public.dart';
-import 'package:Midas/utils/index.dart';
-import 'package:Midas/widgets/quan_ly_don_hang/model/don_hang_model_2.dart';
-import 'package:Midas/widgets/shared/image-custom/image-custom.dart';
+import 'package:Core/core/cart/model/cart_model.dart';
+import 'package:Core/core/translate/public.dart';
+import 'package:Core/utils/index.dart';
+import 'package:Core/widgets/quan_ly_don_hang/model/don_hang_model_2.dart';
+import 'package:Core/widgets/shared/image-custom/image-custom.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 

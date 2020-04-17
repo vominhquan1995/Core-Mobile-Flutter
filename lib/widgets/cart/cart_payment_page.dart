@@ -1,24 +1,24 @@
-import 'package:Midas/core/cart/model/cart_model.dart';
-import 'package:Midas/core/config_json/bloc/configjson_bloc.dart';
-import 'package:Midas/core/config_json/models/config_json.dart';
-import 'package:Midas/core/translate/public.dart';
-import 'package:Midas/core/page-core/bloc/errorhandle_bloc.dart';
-import 'package:Midas/core/page-core/widget_custom.dart';
-import 'package:Midas/utils/index.dart';
-import 'package:Midas/core/connection-status/index.dart';
-import 'package:Midas/widgets/cart/cart_confirm_page.dart';
-import 'package:Midas/widgets/cart/service/cart_service.dart';
-import 'package:Midas/widgets/cart/widgets/expandable_item.dart';
-import 'package:Midas/core/google_analytics/index.dart';
-import 'package:Midas/core/function/snackbar.dart';
-import 'package:Midas/widgets/shared/image-custom/image-custom.dart';
-import 'package:Midas/widgets/shared/text_html/text_html.dart';
+import 'package:Core/core/cart/model/cart_model.dart';
+import 'package:Core/core/config_json/bloc/configjson_bloc.dart';
+import 'package:Core/core/config_json/models/config_json.dart';
+import 'package:Core/core/translate/public.dart';
+import 'package:Core/core/page-core/bloc/errorhandle_bloc.dart';
+import 'package:Core/core/page-core/widget_custom.dart';
+import 'package:Core/utils/index.dart';
+import 'package:Core/core/connection-status/index.dart';
+import 'package:Core/widgets/cart/cart_confirm_page.dart';
+import 'package:Core/widgets/cart/service/cart_service.dart';
+import 'package:Core/widgets/cart/widgets/expandable_item.dart';
+import 'package:Core/core/google_analytics/index.dart';
+import 'package:Core/core/function/snackbar.dart';
+import 'package:Core/widgets/shared/image-custom/image-custom.dart';
+import 'package:Core/widgets/shared/text_html/text_html.dart';
 import 'package:expandable/expandable.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
-import 'package:Midas/widgets/cart/payment_bloc/bloc.dart';
+import 'package:Core/widgets/cart/payment_bloc/bloc.dart';
 
 class CartPaymentPage extends StatefulWidget {
   @override

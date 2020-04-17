@@ -1,12 +1,12 @@
-import 'package:Midas/core/config_json/bloc/configjson_bloc.dart';
-import 'package:Midas/core/config_json/models/config_json.dart';
-import 'package:Midas/core/page-core/widget_custom.dart';
-import 'package:Midas/utils/index.dart';
-import 'package:Midas/widgets/quan_ly_don_hang/model/don_hang_model_2.dart';
-import 'package:Midas/widgets/search/service/service_search.dart';
-import 'package:Midas/widgets/search_results/search_results.dart';
+import 'package:Core/core/config_json/bloc/configjson_bloc.dart';
+import 'package:Core/core/config_json/models/config_json.dart';
+import 'package:Core/core/page-core/widget_custom.dart';
+import 'package:Core/utils/index.dart';
+import 'package:Core/widgets/quan_ly_don_hang/model/don_hang_model_2.dart';
+import 'package:Core/widgets/search/service/service_search.dart';
+import 'package:Core/widgets/search_results/search_results.dart';
 import 'package:flutter/material.dart';
-import 'package:Midas/core/connection-status/index.dart';
+import 'package:Core/core/connection-status/index.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 import 'widget/app_bar_danh_muc.dart';

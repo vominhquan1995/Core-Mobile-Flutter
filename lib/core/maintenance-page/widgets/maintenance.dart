@@ -1,8 +1,8 @@
-import 'package:Midas/core/translate/public.dart';
+import 'package:Core/core/translate/public.dart';
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:flutter_html/flutter_html.dart';
-import 'package:Midas/utils/index.dart';
+import 'package:Core/utils/index.dart';
 
 class MaintenanceWidget extends StatelessWidget {
   final String html;

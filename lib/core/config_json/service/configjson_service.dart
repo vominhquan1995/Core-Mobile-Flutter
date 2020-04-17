@@ -1,8 +1,8 @@
 import 'dart:convert';
 
-import 'package:Midas/core/config_json/models/config_json.dart';
-import 'package:Midas/core/page-core/bloc/errorhandle_bloc.dart';
-import 'package:Midas/core/page-core/service_custom.dart';
+import 'package:Core/core/config_json/models/config_json.dart';
+import 'package:Core/core/page-core/bloc/errorhandle_bloc.dart';
+import 'package:Core/core/page-core/service_custom.dart';
 
 abstract class IBaseConfigJsonService extends ServiceCustom {
   IBaseConfigJsonService(ErrorhandleBloc bloc) : super(bloc);

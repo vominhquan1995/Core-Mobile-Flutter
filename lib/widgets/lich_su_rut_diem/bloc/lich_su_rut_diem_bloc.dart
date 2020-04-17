@@ -1,8 +1,8 @@
 import 'dart:async';
 import 'dart:io';
 
-import 'package:Midas/widgets/lich_su_rut_diem/model/lich_su_rut_diem_model.dart';
-import 'package:Midas/widgets/lich_su_rut_diem/service/lich_su_rut_diem_service.dart';
+import 'package:Core/widgets/lich_su_rut_diem/model/lich_su_rut_diem_model.dart';
+import 'package:Core/widgets/lich_su_rut_diem/service/lich_su_rut_diem_service.dart';
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
 import 'package:meta/meta.dart';

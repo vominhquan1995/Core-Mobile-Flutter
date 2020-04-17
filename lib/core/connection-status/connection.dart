@@ -1,9 +1,9 @@
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_html/flutter_html.dart';
-import 'package:Midas/core/connection-status/connectionStatusSingleton.dart';
-import 'package:Midas/core/connection-status/iconwifi.dart';
-import 'package:Midas/core/data-status/index.dart';
+import 'package:Core/core/connection-status/connectionStatusSingleton.dart';
+import 'package:Core/core/connection-status/iconwifi.dart';
+import 'package:Core/core/data-status/index.dart';
 
 class ConnectionWidget extends StatefulWidget {
   @override

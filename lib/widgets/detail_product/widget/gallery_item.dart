@@ -1,5 +1,5 @@
-import 'package:Midas/widgets/detail_product/model/gallery_item_model.dart';
-import 'package:Midas/widgets/shared/image-custom/image-custom.dart';
+import 'package:Core/widgets/detail_product/model/gallery_item_model.dart';
+import 'package:Core/widgets/shared/image-custom/image-custom.dart';
 import 'package:flutter/widgets.dart';
 import 'package:transparent_image/transparent_image.dart';
 

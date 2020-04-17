@@ -1,9 +1,9 @@
-import 'package:Midas/core/translate/public.dart';
+import 'package:Core/core/translate/public.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:Midas/core/authentication/bloc/bloc.dart';
-import 'package:Midas/core/data-status/index.dart';
-import 'package:Midas/utils/theme.dart';
+import 'package:Core/core/authentication/bloc/bloc.dart';
+import 'package:Core/core/data-status/index.dart';
+import 'package:Core/utils/theme.dart';
 
 import 'bloc/bloc.dart';
 

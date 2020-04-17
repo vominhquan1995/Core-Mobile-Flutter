@@ -1,7 +1,7 @@
 // Copyright (c) 2018 Edwin Jose. All rights reserved.
 // Licensed under the MIT license. See LICENSE file for full information.
 
-import 'package:Midas/utils/theme.dart';
+import 'package:Core/utils/theme.dart';
 import 'package:flutter/material.dart';
 
 final Color defaultColor = Colors.grey[700];

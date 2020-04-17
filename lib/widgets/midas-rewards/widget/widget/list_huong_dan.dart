@@ -1,6 +1,6 @@
-import 'package:Midas/utils/index.dart';
-import 'package:Midas/widgets/midas-rewards/model/huong_dang_model.dart';
-import 'package:Midas/widgets/midas-rewards/widget/widget/item_in_list.dart';
+import 'package:Core/utils/index.dart';
+import 'package:Core/widgets/midas-rewards/model/huong_dang_model.dart';
+import 'package:Core/widgets/midas-rewards/widget/widget/item_in_list.dart';
 import 'package:flutter/material.dart';
 
 

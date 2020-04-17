@@ -1,6 +1,6 @@
 import 'dart:convert';
-import 'package:Midas/core/translate/public.dart';
-import 'package:Midas/core/translate/service/translate_service.dart';
+import 'package:Core/core/translate/public.dart';
+import 'package:Core/core/translate/service/translate_service.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:shared_preferences/shared_preferences.dart';

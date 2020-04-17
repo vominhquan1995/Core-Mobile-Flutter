@@ -1,8 +1,8 @@
 import 'dart:async';
 
-import 'package:Midas/core/translate/public.dart';
+import 'package:Core/core/translate/public.dart';
 import 'package:flutter/material.dart';
-import 'package:Midas/core/connection-status/index.dart';
+import 'package:Core/core/connection-status/index.dart';
 
 class ShowOverlay {
   //This creates the single instance by calling the `_internal` constructor specified below

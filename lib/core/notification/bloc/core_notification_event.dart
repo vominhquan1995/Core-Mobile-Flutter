@@ -1,4 +1,4 @@
-import 'package:Midas/core/notification/index.dart';
+import 'package:Core/core/notification/index.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:meta/meta.dart';
 import 'package:equatable/equatable.dart';

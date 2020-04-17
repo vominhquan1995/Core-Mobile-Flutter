@@ -1,4 +1,4 @@
-import 'package:Midas/utils/index.dart';
+import 'package:Core/utils/index.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 

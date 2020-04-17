@@ -1,10 +1,10 @@
-import 'package:Midas/core/authentication/login-mobile/index.dart';
+import 'package:Core/core/authentication/login-mobile/index.dart';
 import 'package:flutter/material.dart';
-import 'package:Midas/core/authentication/phone_auth/index.dart';
-import 'package:Midas/core/connection-status/index.dart';
-import 'package:Midas/core/data-status/index.dart';
-import 'package:Midas/core/function/snackbar.dart';
-import 'package:Midas/utils/index.dart';
+import 'package:Core/core/authentication/phone_auth/index.dart';
+import 'package:Core/core/connection-status/index.dart';
+import 'package:Core/core/data-status/index.dart';
+import 'package:Core/core/function/snackbar.dart';
+import 'package:Core/utils/index.dart';
 
 import 'bloc/bloc_form_sms/index.dart';
 

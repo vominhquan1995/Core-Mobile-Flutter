@@ -1,7 +1,7 @@
-import 'package:Midas/core/translate/public.dart';
-import 'package:Midas/utils/index.dart';
-import 'package:Midas/widgets/my_library/models/sanpham_model.dart';
-import 'package:Midas/widgets/my_library/widgets/sanpham_widget.dart';
+import 'package:Core/core/translate/public.dart';
+import 'package:Core/utils/index.dart';
+import 'package:Core/widgets/my_library/models/sanpham_model.dart';
+import 'package:Core/widgets/my_library/widgets/sanpham_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:shimmer/shimmer.dart';

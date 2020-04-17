@@ -1,6 +1,6 @@
-import 'package:Midas/core/page-core/bloc/errorhandle_bloc.dart';
-import 'package:Midas/core/page-core/service_custom.dart';
-import 'package:Midas/widgets/my_library/models/sanpham_model.dart';
+import 'package:Core/core/page-core/bloc/errorhandle_bloc.dart';
+import 'package:Core/core/page-core/service_custom.dart';
+import 'package:Core/widgets/my_library/models/sanpham_model.dart';
 class DetailProductService extends ServiceCustom {
   DetailProductService(ErrorhandleBloc bloc) : super(bloc);
   Future<SanPhamModel> getDataDetail(String sanPhamId) async {

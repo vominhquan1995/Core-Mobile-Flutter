@@ -1,11 +1,11 @@
-import 'package:Midas/core/translate/public.dart';
-import 'package:Midas/core/page-core/bloc/bloc.dart';
-import 'package:Midas/utils/index.dart';
-import 'package:Midas/widgets/quan_ly_don_hang/widget/item_news.dart';
-import 'package:Midas/widgets/quan_ly_don_hang/widget/items_detail-don-hang.dart';
+import 'package:Core/core/translate/public.dart';
+import 'package:Core/core/page-core/bloc/bloc.dart';
+import 'package:Core/utils/index.dart';
+import 'package:Core/widgets/quan_ly_don_hang/widget/item_news.dart';
+import 'package:Core/widgets/quan_ly_don_hang/widget/items_detail-don-hang.dart';
 import 'package:flutter/material.dart';
-import 'package:Midas/core/connection-status/index.dart';
-import 'package:Midas/core/function/snackbar.dart';
+import 'package:Core/core/connection-status/index.dart';
+import 'package:Core/core/function/snackbar.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 import 'bloc/quan_ly_don_hang_bloc.dart';

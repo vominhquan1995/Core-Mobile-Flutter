@@ -1,5 +1,5 @@
 import 'dart:async';
-import 'package:Midas/core/cart/service/cart_service.dart';
+import 'package:Core/core/cart/service/cart_service.dart';
 import 'package:bloc/bloc.dart';
 import 'package:flutter/foundation.dart';
 import 'index.dart';

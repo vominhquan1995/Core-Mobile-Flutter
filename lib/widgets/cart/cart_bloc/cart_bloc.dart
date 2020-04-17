@@ -1,10 +1,10 @@
 import 'dart:async';
 import 'dart:math';
-import 'package:Midas/core/cart/model/cart_model.dart';
-import 'package:Midas/widgets/cart/cart_bloc/bloc.dart';
+import 'package:Core/core/cart/model/cart_model.dart';
+import 'package:Core/widgets/cart/cart_bloc/bloc.dart';
 import 'package:bloc/bloc.dart';
 import 'package:flutter/foundation.dart';
-import 'package:Midas/widgets/cart/service/cart_service.dart';
+import 'package:Core/widgets/cart/service/cart_service.dart';
 
 class CartBloc extends Bloc<CartEvent, CartState> {
   CartService service;

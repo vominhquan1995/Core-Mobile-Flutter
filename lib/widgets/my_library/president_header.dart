@@ -1,6 +1,6 @@
 import 'dart:math';
 
-import 'package:Midas/utils/index.dart';
+import 'package:Core/utils/index.dart';
 import 'package:flutter/material.dart';
 
 class MyDynamicHeader extends SliverPersistentHeaderDelegate {

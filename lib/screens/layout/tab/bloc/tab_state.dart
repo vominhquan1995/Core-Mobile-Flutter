@@ -1,9 +1,9 @@
-import 'package:Midas/screens/danhmuc_screen.dart';
-import 'package:Midas/screens/layout/tab/models/tab_page.dart';
-import 'package:Midas/screens/layout/tab/models/tab_selector.dart';
-import 'package:Midas/screens/my_library.dart';
-import 'package:Midas/screens/thongbao_screen.dart';
-import 'package:Midas/screens/thongtin_canhan_screen.dart';
+import 'package:Core/screens/danhmuc_screen.dart';
+import 'package:Core/screens/layout/tab/models/tab_page.dart';
+import 'package:Core/screens/layout/tab/models/tab_selector.dart';
+import 'package:Core/screens/my_library.dart';
+import 'package:Core/screens/thongbao_screen.dart';
+import 'package:Core/screens/thongtin_canhan_screen.dart';
 
 import 'package:equatable/equatable.dart';
 import 'package:flutter_svg/flutter_svg.dart';

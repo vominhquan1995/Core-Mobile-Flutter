@@ -1,5 +1,5 @@
-import 'package:Midas/widgets/my_library/models/banner_model.dart';
-import 'package:Midas/widgets/shared/image-custom/image-custom.dart';
+import 'package:Core/widgets/my_library/models/banner_model.dart';
+import 'package:Core/widgets/shared/image-custom/image-custom.dart';
 import 'package:flutter/material.dart';
 
 import 'package:flutter_swiper/flutter_swiper.dart';

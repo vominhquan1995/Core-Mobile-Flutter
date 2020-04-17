@@ -1,8 +1,8 @@
 import 'dart:async';
-import 'package:Midas/widgets/notification/bloc/bloc.dart';
+import 'package:Core/widgets/notification/bloc/bloc.dart';
 import 'package:bloc/bloc.dart';
 import 'package:flutter/foundation.dart';
-import 'package:Midas/widgets/notification/service/notification_service.dart';
+import 'package:Core/widgets/notification/service/notification_service.dart';
 import 'package:rxdart/rxdart.dart';
 
 const PER_PAGE = 10;

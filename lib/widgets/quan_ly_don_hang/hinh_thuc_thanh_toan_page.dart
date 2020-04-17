@@ -1,6 +1,6 @@
-import 'package:Midas/utils/index.dart';
-import 'package:Midas/widgets/quan_ly_don_hang/widget/expandable_item.dart';
-import 'package:Midas/widgets/quan_ly_don_hang/widget/hinhthuc_item.dart';
+import 'package:Core/utils/index.dart';
+import 'package:Core/widgets/quan_ly_don_hang/widget/expandable_item.dart';
+import 'package:Core/widgets/quan_ly_don_hang/widget/hinhthuc_item.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 

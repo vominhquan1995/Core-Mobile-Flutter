@@ -1,8 +1,8 @@
-import 'package:Midas/core/authentication/models/profile_model.dart';
-import 'package:Midas/core/translate/public.dart';
-import 'package:Midas/utils/index.dart';
-import 'package:Midas/widgets/detail_product/widget/view_detail_html.dart';
-import 'package:Midas/widgets/my_library/models/sanpham_model.dart';
+import 'package:Core/core/authentication/models/profile_model.dart';
+import 'package:Core/core/translate/public.dart';
+import 'package:Core/utils/index.dart';
+import 'package:Core/widgets/detail_product/widget/view_detail_html.dart';
+import 'package:Core/widgets/my_library/models/sanpham_model.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 

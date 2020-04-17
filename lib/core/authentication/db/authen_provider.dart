@@ -1,6 +1,6 @@
-import 'package:Midas/core/authentication/models/profile_model.dart';
-import 'package:Midas/core/database/base_db_provider.dart';
-import 'package:Midas/core/database/dbhelper.dart';
+import 'package:Core/core/authentication/models/profile_model.dart';
+import 'package:Core/core/database/base_db_provider.dart';
+import 'package:Core/core/database/dbhelper.dart';
 
 class AuthenProvider extends BaseProvider<Profile> {
   static const String TABLE_NAME = "contacts";

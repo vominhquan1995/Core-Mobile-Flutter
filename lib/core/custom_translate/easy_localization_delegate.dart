@@ -1,5 +1,5 @@
 import 'dart:convert';
-import 'package:Midas/core/custom_translate/service/localization_service.dart';
+import 'package:Core/core/custom_translate/service/localization_service.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter/services.dart';
 import 'package:http/http.dart' as http;

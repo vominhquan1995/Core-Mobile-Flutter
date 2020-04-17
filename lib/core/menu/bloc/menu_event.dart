@@ -1,6 +1,6 @@
 import 'package:equatable/equatable.dart';
 import 'package:meta/meta.dart';
-import 'package:Midas/core/authentication/models/profile_model.dart';
+import 'package:Core/core/authentication/models/profile_model.dart';
 
 @immutable
 abstract class MenuEvent extends Equatable {

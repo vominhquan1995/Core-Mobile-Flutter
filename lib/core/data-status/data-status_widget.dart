@@ -1,6 +1,6 @@
-import 'package:Midas/core/translate/public.dart';
+import 'package:Core/core/translate/public.dart';
 import 'package:flutter/material.dart';
-import 'package:Midas/utils/index.dart';
+import 'package:Core/utils/index.dart';
 
 class IDataStatus {
   String text;

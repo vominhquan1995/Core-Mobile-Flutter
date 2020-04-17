@@ -1,8 +1,8 @@
 import 'dart:async';
 
-import 'package:Midas/widgets/my_library/models/sanpham_model.dart';
-import 'package:Midas/widgets/search_results/model/parram_filter_model.dart';
-import 'package:Midas/widgets/search_results/service/service_search_results.dart';
+import 'package:Core/widgets/my_library/models/sanpham_model.dart';
+import 'package:Core/widgets/search_results/model/parram_filter_model.dart';
+import 'package:Core/widgets/search_results/service/service_search_results.dart';
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
 import 'package:meta/meta.dart';

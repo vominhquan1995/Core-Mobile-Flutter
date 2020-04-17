@@ -1,15 +1,15 @@
-import 'package:Midas/core/config_json/bloc/configjson_bloc.dart';
-import 'package:Midas/core/translate/public.dart';
-import 'package:Midas/main.dart';
-// import 'package:Midas/core/custom_translate/easy_localization.dart';
-// import 'package:Midas/core/translate/public.dart';
-import 'package:Midas/utils/index.dart';
-import 'package:Midas/widgets/ngon_ngu/bloc_ngon_ngu/ngonngu_bloc.dart';
-import 'package:Midas/widgets/ngon_ngu/service/ngon_ngu_service.dart';
-import 'package:Midas/widgets/quoc_gia/bloc/quocgia_bloc.dart';
-import 'package:Midas/widgets/quoc_gia/models/quocgia_model.dart';
-import 'package:Midas/widgets/quoc_gia/widgets/checkbox_custom.dart';
-import 'package:Midas/widgets/shared/buttonMidas/button_midas.dart';
+import 'package:Core/core/config_json/bloc/configjson_bloc.dart';
+import 'package:Core/core/translate/public.dart';
+import 'package:Core/main.dart';
+// import 'package:Core/core/custom_translate/easy_localization.dart';
+// import 'package:Core/core/translate/public.dart';
+import 'package:Core/utils/index.dart';
+import 'package:Core/widgets/ngon_ngu/bloc_ngon_ngu/ngonngu_bloc.dart';
+import 'package:Core/widgets/ngon_ngu/service/ngon_ngu_service.dart';
+import 'package:Core/widgets/quoc_gia/bloc/quocgia_bloc.dart';
+import 'package:Core/widgets/quoc_gia/models/quocgia_model.dart';
+import 'package:Core/widgets/quoc_gia/widgets/checkbox_custom.dart';
+import 'package:Core/widgets/shared/buttonMidas/button_midas.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

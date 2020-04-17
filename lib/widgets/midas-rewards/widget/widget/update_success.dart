@@ -1,7 +1,7 @@
-import 'package:Midas/core/translate/public.dart';
-import 'package:Midas/core/page-core/widget_custom.dart';
-import 'package:Midas/utils/theme.dart';
-import 'package:Midas/widgets/lich_su_rut_diem/lich_su_rut_diem_list_page.dart';
+import 'package:Core/core/translate/public.dart';
+import 'package:Core/core/page-core/widget_custom.dart';
+import 'package:Core/utils/theme.dart';
+import 'package:Core/widgets/lich_su_rut_diem/lich_su_rut_diem_list_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

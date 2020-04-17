@@ -1,5 +1,5 @@
-import 'package:Midas/core/authentication/db/authen_provider.dart';
-import 'package:Midas/core/translate/public.dart';
+import 'package:Core/core/authentication/db/authen_provider.dart';
+import 'package:Core/core/translate/public.dart';
 import 'package:equatable/equatable.dart';
 import 'package:json_annotation/json_annotation.dart';
 

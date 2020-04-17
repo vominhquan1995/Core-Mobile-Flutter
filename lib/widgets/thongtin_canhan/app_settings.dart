@@ -1,6 +1,6 @@
 import 'package:app_settings/app_settings.dart';
 import 'package:flutter/material.dart';
-import 'package:Midas/utils/index.dart';
+import 'package:Core/utils/index.dart';
 
 class AppSettingsPage extends StatelessWidget {
   @override

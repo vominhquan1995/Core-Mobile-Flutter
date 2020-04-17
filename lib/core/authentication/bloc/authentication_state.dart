@@ -1,4 +1,4 @@
-import 'package:Midas/core/authentication/models/profile_model.dart';
+import 'package:Core/core/authentication/models/profile_model.dart';
 import 'package:equatable/equatable.dart';
 
 abstract class AuthenticationState extends Equatable {

@@ -1,6 +1,6 @@
 import 'dart:async';
 import 'package:bloc/bloc.dart';
-import 'package:Midas/core/notification/core_notification.dart';
+import 'package:Core/core/notification/core_notification.dart';
 import 'index.dart';
 
 class CoreNotificationBloc

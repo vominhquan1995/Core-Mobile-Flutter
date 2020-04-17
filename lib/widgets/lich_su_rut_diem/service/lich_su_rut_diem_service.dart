@@ -1,7 +1,7 @@
-import 'package:Midas/core/page-core/bloc/bloc.dart';
-import 'package:Midas/widgets/lich_su_rut_diem/model/lich_su_rut_diem_model.dart';
+import 'package:Core/core/page-core/bloc/bloc.dart';
+import 'package:Core/widgets/lich_su_rut_diem/model/lich_su_rut_diem_model.dart';
 import 'dart:async';
-import 'package:Midas/core/page-core/service_custom.dart';
+import 'package:Core/core/page-core/service_custom.dart';
 import '../../../core/page-core/service_custom.dart';
 
 class LichSuRutDiemService extends ServiceCustom {

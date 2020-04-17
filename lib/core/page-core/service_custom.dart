@@ -1,8 +1,8 @@
-import 'package:Midas/widgets/quoc_gia/db/quocgia_db.dart';
+import 'package:Core/widgets/quoc_gia/db/quocgia_db.dart';
 import 'package:device_id/device_id.dart';
 import 'package:dio/dio.dart';
-import 'package:Midas/core/authentication/db/authen_provider.dart';
-import 'package:Midas/utils/index.dart';
+import 'package:Core/core/authentication/db/authen_provider.dart';
+import 'package:Core/utils/index.dart';
 
 import 'bloc/bloc.dart';
 

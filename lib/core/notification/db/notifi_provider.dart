@@ -1,5 +1,5 @@
 import 'package:equatable/equatable.dart';
-import 'package:Midas/core/database/dbhelper.dart';
+import 'package:Core/core/database/dbhelper.dart';
 
 const TAG = 'NOFITICATION_PROVIDER: ';
 

@@ -1,7 +1,7 @@
 import 'dart:async';
 import 'package:bloc/bloc.dart';
-import 'package:Midas/core/database/appdatabaseinfo.dart';
-import 'package:Midas/core/database/dbhelper.dart';
+import 'package:Core/core/database/appdatabaseinfo.dart';
+import 'package:Core/core/database/dbhelper.dart';
 import './bloc.dart';
 
 class DatabaseHelperBloc

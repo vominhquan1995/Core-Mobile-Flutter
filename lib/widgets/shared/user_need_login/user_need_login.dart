@@ -1,7 +1,7 @@
-import 'package:Midas/core/authentication/login-mobile/index.dart';
-import 'package:Midas/core/translate/public.dart';
-import 'package:Midas/utils/index.dart';
-import 'package:Midas/widgets/shared/buttonMidas/button_midas.dart';
+import 'package:Core/core/authentication/login-mobile/index.dart';
+import 'package:Core/core/translate/public.dart';
+import 'package:Core/utils/index.dart';
+import 'package:Core/widgets/shared/buttonMidas/button_midas.dart';
 import 'package:flutter/material.dart';
 
 class UserNeedLogin extends StatelessWidget {

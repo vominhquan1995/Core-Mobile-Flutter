@@ -1,4 +1,4 @@
-// import 'package:Midas/widgets/lich_su_rut_diem/model/lich_su_rut_diem_model.dart';
+// import 'package:Core/widgets/lich_su_rut_diem/model/lich_su_rut_diem_model.dart';
 
 // /**
 //  * Thời gian sẽ fomat lại từ api

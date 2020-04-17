@@ -1,5 +1,5 @@
-import 'package:Midas/utils/index.dart';
-import 'package:Midas/widgets/hoa_hong_thang/model/index.dart';
+import 'package:Core/utils/index.dart';
+import 'package:Core/widgets/hoa_hong_thang/model/index.dart';
 import 'package:flutter/material.dart';
 
 class ItemHoaHongThang extends StatelessWidget {

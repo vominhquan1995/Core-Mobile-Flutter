@@ -1,4 +1,4 @@
-import 'package:Midas/core/authentication/login-mobile/db/quoc_gia_provider.dart';
+import 'package:Core/core/authentication/login-mobile/db/quoc_gia_provider.dart';
 import 'package:rxdart/rxdart.dart';
 
 import '../../index.dart';

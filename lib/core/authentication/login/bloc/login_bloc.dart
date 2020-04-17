@@ -1,7 +1,7 @@
 import 'package:dio/dio.dart';
 import 'package:meta/meta.dart';
 import 'package:bloc/bloc.dart';
-import 'package:Midas/core/authentication/models/profile_model.dart';
+import 'package:Core/core/authentication/models/profile_model.dart';
 
 import '../../authentication_service.dart';
 import './index.dart';

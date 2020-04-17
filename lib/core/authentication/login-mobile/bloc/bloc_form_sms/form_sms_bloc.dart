@@ -1,7 +1,7 @@
 import 'dart:async';
-import 'package:Midas/core/authentication/login-mobile/bloc/bloc_form_sms/index.dart';
-import 'package:Midas/core/authentication/phone_auth/index.dart';
-import 'package:Midas/core/translate/public.dart';
+import 'package:Core/core/authentication/login-mobile/bloc/bloc_form_sms/index.dart';
+import 'package:Core/core/authentication/phone_auth/index.dart';
+import 'package:Core/core/translate/public.dart';
 import 'package:bloc/bloc.dart';
 import 'package:rxdart/rxdart.dart';
 

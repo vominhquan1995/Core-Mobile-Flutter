@@ -1,11 +1,11 @@
 import 'dart:io';
 
-import 'package:Midas/core/translate/public.dart';
+import 'package:Core/core/translate/public.dart';
 import 'package:device_id/device_id.dart';
-import 'package:Midas/core/page-core/bloc/errorhandle_bloc.dart';
-import 'package:Midas/core/page-core/service_custom.dart';
-import 'package:Midas/utils/index.dart';
-import 'package:Midas/widgets/notification/model/notification_model.dart';
+import 'package:Core/core/page-core/bloc/errorhandle_bloc.dart';
+import 'package:Core/core/page-core/service_custom.dart';
+import 'package:Core/utils/index.dart';
+import 'package:Core/widgets/notification/model/notification_model.dart';
 
 class NotificationService extends ServiceCustom {
   NotificationService(ErrorhandleBloc bloc) : super(bloc);

@@ -1,5 +1,5 @@
-import 'package:Midas/utils/index.dart';
-import 'package:Midas/widgets/tra_cuu/models/tracuu_model.dart';
+import 'package:Core/utils/index.dart';
+import 'package:Core/widgets/tra_cuu/models/tracuu_model.dart';
 import 'package:flutter/material.dart';
 
 import 'item_in_list.dart';

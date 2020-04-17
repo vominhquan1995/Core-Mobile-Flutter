@@ -1,8 +1,8 @@
 import 'dart:async';
 
-import 'package:Midas/widgets/upgrade_account/bloc_address/address_bloc.dart';
-import 'package:Midas/widgets/upgrade_account/model/request_upgrade_model.dart';
-import 'package:Midas/widgets/upgrade_account/service/upgrade_service.dart';
+import 'package:Core/widgets/upgrade_account/bloc_address/address_bloc.dart';
+import 'package:Core/widgets/upgrade_account/model/request_upgrade_model.dart';
+import 'package:Core/widgets/upgrade_account/service/upgrade_service.dart';
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
 

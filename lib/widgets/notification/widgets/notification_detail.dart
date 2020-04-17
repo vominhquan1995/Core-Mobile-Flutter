@@ -2,8 +2,8 @@ import 'package:device_id/device_id.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_webview_plugin/flutter_webview_plugin.dart';
-import 'package:Midas/core/authentication/bloc/bloc.dart';
-import 'package:Midas/utils/index.dart';
+import 'package:Core/core/authentication/bloc/bloc.dart';
+import 'package:Core/utils/index.dart';
 
 class NotificationHtml extends StatelessWidget {
   final Widget appBar;

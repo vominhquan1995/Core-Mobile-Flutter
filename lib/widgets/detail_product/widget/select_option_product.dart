@@ -1,7 +1,7 @@
-import 'package:Midas/utils/index.dart';
-import 'package:Midas/widgets/detail_product/model/option.model.dart';
-import 'package:Midas/widgets/my_library/models/sanpham_model.dart';
-import 'package:Midas/widgets/shared/image-custom/image-custom.dart';
+import 'package:Core/utils/index.dart';
+import 'package:Core/widgets/detail_product/model/option.model.dart';
+import 'package:Core/widgets/my_library/models/sanpham_model.dart';
+import 'package:Core/widgets/shared/image-custom/image-custom.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'body_content_detail.dart';

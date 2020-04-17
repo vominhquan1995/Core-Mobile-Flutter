@@ -1,7 +1,7 @@
-import 'package:Midas/core/translate/public.dart';
+import 'package:Core/core/translate/public.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:Midas/core/connection-status/connectionStatusSingleton.dart';
+import 'package:Core/core/connection-status/connectionStatusSingleton.dart';
 
 void showSnackBarUpdateDataKey(GlobalKey<ScaffoldState> _scaffoldKey) {
   final snackBar = SnackBar(

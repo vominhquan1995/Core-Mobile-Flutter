@@ -1,8 +1,8 @@
-import 'package:Midas/core/page-core/bloc/bloc.dart';
-import 'package:Midas/utils/index.dart';
-import 'package:Midas/widgets/my_library/bloc_sanpham/sanpham_bloc.dart';
-import 'package:Midas/widgets/my_library/service/library_service.dart';
-import 'package:Midas/widgets/my_library/widgets/sanpham_widget.dart';
+import 'package:Core/core/page-core/bloc/bloc.dart';
+import 'package:Core/utils/index.dart';
+import 'package:Core/widgets/my_library/bloc_sanpham/sanpham_bloc.dart';
+import 'package:Core/widgets/my_library/service/library_service.dart';
+import 'package:Core/widgets/my_library/widgets/sanpham_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

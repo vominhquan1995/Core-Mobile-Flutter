@@ -1,4 +1,4 @@
-import 'package:Midas/core/page-core/service_custom_1.dart';
+import 'package:Core/core/page-core/service_custom_1.dart';
 class TranslateService extends ServiceCustom1 {
   TranslateService() : super(null);
   @override

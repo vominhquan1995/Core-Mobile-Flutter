@@ -1,5 +1,5 @@
-import 'package:Midas/utils/theme.dart';
-import 'package:Midas/utils/theme.dart' as prefix1;
+import 'package:Core/utils/theme.dart';
+import 'package:Core/utils/theme.dart' as prefix1;
 import 'package:flutter/material.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 

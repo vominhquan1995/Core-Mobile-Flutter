@@ -1,7 +1,7 @@
-import 'package:Midas/core/cart/cart_badge.dart';
-import 'package:Midas/utils/index.dart';
-import 'package:Midas/widgets/search/search.dart';
-import 'package:Midas/widgets/search/widget/search_box_button.dart';
+import 'package:Core/core/cart/cart_badge.dart';
+import 'package:Core/utils/index.dart';
+import 'package:Core/widgets/search/search.dart';
+import 'package:Core/widgets/search/widget/search_box_button.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 

@@ -1,6 +1,6 @@
-import 'package:Midas/core/database/dbhelper.dart';
-import 'package:Midas/widgets/thanh_vien_f2_f3/model/index.dart';
-import 'package:Midas/widgets/thanh_vien_f2_f3/model/thanh_vien.m.dart';
+import 'package:Core/core/database/dbhelper.dart';
+import 'package:Core/widgets/thanh_vien_f2_f3/model/index.dart';
+import 'package:Core/widgets/thanh_vien_f2_f3/model/thanh_vien.m.dart';
 
 ///Kiểu bool trong sqlite: integers 0 (false) and 1 (true).
 class ThanhVienDB {

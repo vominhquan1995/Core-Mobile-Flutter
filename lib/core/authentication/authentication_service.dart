@@ -1,10 +1,10 @@
 import 'dart:core';
 import 'dart:io';
 
-import 'package:Midas/widgets/quoc_gia/models/quocgia_model.dart';
+import 'package:Core/widgets/quoc_gia/models/quocgia_model.dart';
 import 'package:dio/dio.dart';
-import 'package:Midas/core/page-core/service_custom.dart';
-import 'package:Midas/utils/index.dart';
+import 'package:Core/core/page-core/service_custom.dart';
+import 'package:Core/utils/index.dart';
 import 'package:meta/meta.dart';
 import 'package:package_info/package_info.dart';
 

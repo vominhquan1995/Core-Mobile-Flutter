@@ -1,4 +1,4 @@
-import 'package:Midas/widgets/detail_product/model/gallery_item_model.dart';
+import 'package:Core/widgets/detail_product/model/gallery_item_model.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';

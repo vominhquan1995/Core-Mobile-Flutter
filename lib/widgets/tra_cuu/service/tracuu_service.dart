@@ -1,6 +1,6 @@
-import 'package:Midas/core/page-core/bloc/errorhandle_bloc.dart';
-import 'package:Midas/core/page-core/service_custom.dart';
-import 'package:Midas/widgets/tra_cuu/models/tracuu_model.dart';
+import 'package:Core/core/page-core/bloc/errorhandle_bloc.dart';
+import 'package:Core/core/page-core/service_custom.dart';
+import 'package:Core/widgets/tra_cuu/models/tracuu_model.dart';
 
 abstract class IBaseTraCuuService extends ServiceCustom {
   IBaseTraCuuService(ErrorhandleBloc bloc) : super(bloc);

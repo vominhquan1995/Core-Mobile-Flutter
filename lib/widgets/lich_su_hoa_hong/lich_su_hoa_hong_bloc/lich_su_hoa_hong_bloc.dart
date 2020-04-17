@@ -1,8 +1,8 @@
 import 'dart:async';
 import 'dart:io';
 
-import 'package:Midas/widgets/lich_su_hoa_hong/model/index.dart';
-import 'package:Midas/widgets/lich_su_hoa_hong/service/lich_su_hoa_hong_service.dart';
+import 'package:Core/widgets/lich_su_hoa_hong/model/index.dart';
+import 'package:Core/widgets/lich_su_hoa_hong/service/lich_su_hoa_hong_service.dart';
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
 import 'package:intl/intl.dart';

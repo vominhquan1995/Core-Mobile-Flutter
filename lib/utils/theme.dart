@@ -1,6 +1,6 @@
 import 'dart:io';
 
-import 'package:Midas/utils/index.dart';
+import 'package:Core/utils/index.dart';
 import 'package:flutter/material.dart';
 
 //Font Size Scale With Screen

@@ -1,6 +1,6 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
-import 'package:Midas/utils/index.dart';
+import 'package:Core/utils/index.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class LoginFailureWidget extends StatelessWidget {

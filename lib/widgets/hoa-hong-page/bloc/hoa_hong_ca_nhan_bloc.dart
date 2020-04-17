@@ -1,8 +1,8 @@
 import 'dart:async';
 import 'dart:io';
 
-import 'package:Midas/widgets/hoa-hong-page/model/hoa_hong_ca_nhan_model.dart';
-import 'package:Midas/widgets/hoa-hong-page/service/tong_hoa_hong_service.dart';
+import 'package:Core/widgets/hoa-hong-page/model/hoa_hong_ca_nhan_model.dart';
+import 'package:Core/widgets/hoa-hong-page/service/tong_hoa_hong_service.dart';
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
 import 'package:intl/intl.dart';

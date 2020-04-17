@@ -1,5 +1,5 @@
-import 'package:Midas/core/page-core/widget_custom.dart';
-import 'package:Midas/widgets/notification/notification_list_page.dart';
+import 'package:Core/core/page-core/widget_custom.dart';
+import 'package:Core/widgets/notification/notification_list_page.dart';
 import 'package:flutter/material.dart';
 
 class ThongBaoScreen extends StatefulWidget {

@@ -1,6 +1,6 @@
 import 'dart:async';
-import 'package:Midas/core/authentication/login-mobile/bloc/bloc_form_dien_thoai/index.dart';
-import 'package:Midas/core/authentication/phone_auth/index.dart';
+import 'package:Core/core/authentication/login-mobile/bloc/bloc_form_dien_thoai/index.dart';
+import 'package:Core/core/authentication/phone_auth/index.dart';
 import 'package:bloc/bloc.dart';
 
 class FormDienThoaiBloc extends Bloc<FormDienThoaiEvent, FormDienThoaiState> {

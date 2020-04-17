@@ -1,14 +1,14 @@
-import 'package:Midas/core/translate/public.dart';
+import 'package:Core/core/translate/public.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:Midas/core/google_analytics/index.dart';
-import 'package:Midas/core/notification/core_notification.dart';
-import 'package:Midas/core/page-core/bloc/bloc.dart';
-import 'package:Midas/utils/index.dart';
-import 'package:Midas/utils/notification_util.dart';
-import 'package:Midas/utils/theme.dart';
-import 'package:Midas/widgets/setting_notification/index.dart';
-import 'package:Midas/widgets/setting_notification/widgets/setting_notifi_item.dart';
+import 'package:Core/core/google_analytics/index.dart';
+import 'package:Core/core/notification/core_notification.dart';
+import 'package:Core/core/page-core/bloc/bloc.dart';
+import 'package:Core/utils/index.dart';
+import 'package:Core/utils/notification_util.dart';
+import 'package:Core/utils/theme.dart';
+import 'package:Core/widgets/setting_notification/index.dart';
+import 'package:Core/widgets/setting_notification/widgets/setting_notifi_item.dart';
 
 const TAG = 'SETTING_NOFITICATION: ';
 enum ConfirmAction { CANCEL, OK }

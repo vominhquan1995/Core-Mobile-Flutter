@@ -1,4 +1,4 @@
-import 'package:Midas/widgets/tra_cuu/models/tracuu_model.dart';
+import 'package:Core/widgets/tra_cuu/models/tracuu_model.dart';
 import 'package:equatable/equatable.dart';
 
 abstract class TracuuState extends Equatable {

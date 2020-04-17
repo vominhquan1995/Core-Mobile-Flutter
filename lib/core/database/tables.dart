@@ -1,10 +1,10 @@
-import 'package:Midas/core/authentication/models/profile_model.dart';
-import 'package:Midas/core/bao-tri/models/baotri.dart';
-import 'package:Midas/core/cart/model/cart_model.dart';
-import 'package:Midas/core/config_json/db/config_json_provider.dart';
-import 'package:Midas/core/notification/index.dart';
-import 'package:Midas/widgets/quoc_gia/models/quocgia_model.dart';
-import 'package:Midas/widgets/thanh_vien_f2_f3/model/index.dart';
+import 'package:Core/core/authentication/models/profile_model.dart';
+import 'package:Core/core/bao-tri/models/baotri.dart';
+import 'package:Core/core/cart/model/cart_model.dart';
+import 'package:Core/core/config_json/db/config_json_provider.dart';
+import 'package:Core/core/notification/index.dart';
+import 'package:Core/widgets/quoc_gia/models/quocgia_model.dart';
+import 'package:Core/widgets/thanh_vien_f2_f3/model/index.dart';
 
 class Tables {
   static String CRATE_TABLE_USER = TABLE_USER;

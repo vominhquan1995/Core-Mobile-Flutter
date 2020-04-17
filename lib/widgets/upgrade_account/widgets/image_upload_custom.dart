@@ -1,7 +1,7 @@
-import 'package:Midas/core/translate/public.dart';
-import 'package:Midas/utils/index.dart';
-import 'package:Midas/widgets/shared/image-custom/image-custom.dart';
-import 'package:Midas/widgets/upgrade_account/bloc_upload_image/bloc.dart';
+import 'package:Core/core/translate/public.dart';
+import 'package:Core/utils/index.dart';
+import 'package:Core/widgets/shared/image-custom/image-custom.dart';
+import 'package:Core/widgets/upgrade_account/bloc_upload_image/bloc.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';

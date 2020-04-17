@@ -1,10 +1,10 @@
-import 'package:Midas/core/page-core/widget_custom.dart';
-import 'package:Midas/widgets/cart/cart_list_page.dart';
+import 'package:Core/core/page-core/widget_custom.dart';
+import 'package:Core/widgets/cart/cart_list_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:Midas/core/connection-status/index.dart';
-import 'package:Midas/core/function/snackbar.dart';
-import 'package:Midas/core/google_analytics/index.dart';
+import 'package:Core/core/connection-status/index.dart';
+import 'package:Core/core/function/snackbar.dart';
+import 'package:Core/core/google_analytics/index.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
 import 'bloc/core_cart_bloc.dart';

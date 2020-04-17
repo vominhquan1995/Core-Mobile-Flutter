@@ -1,5 +1,5 @@
-import 'package:Midas/utils/theme.dart';
-import 'package:Midas/widgets/shared/divider-custom/divider-custom.dart';
+import 'package:Core/utils/theme.dart';
+import 'package:Core/widgets/shared/divider-custom/divider-custom.dart';
 import 'package:flutter/material.dart';
 import 'package:shimmer/shimmer.dart';
 

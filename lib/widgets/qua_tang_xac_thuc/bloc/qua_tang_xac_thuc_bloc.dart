@@ -1,9 +1,9 @@
 import 'dart:async';
 import 'dart:io';
 
-import 'package:Midas/widgets/qua_tang_xac_thuc/bloc/qua_tang_xac_thuc_event.dart';
-import 'package:Midas/widgets/qua_tang_xac_thuc/bloc/qua_tang_xac_thuc_state.dart';
-import 'package:Midas/widgets/qua_tang_xac_thuc/service/qua_tang_xac_thuc_service.dart';
+import 'package:Core/widgets/qua_tang_xac_thuc/bloc/qua_tang_xac_thuc_event.dart';
+import 'package:Core/widgets/qua_tang_xac_thuc/bloc/qua_tang_xac_thuc_state.dart';
+import 'package:Core/widgets/qua_tang_xac_thuc/service/qua_tang_xac_thuc_service.dart';
 import 'package:bloc/bloc.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:meta/meta.dart';

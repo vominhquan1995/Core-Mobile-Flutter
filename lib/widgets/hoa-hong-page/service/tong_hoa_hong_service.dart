@@ -1,6 +1,6 @@
-import 'package:Midas/core/page-core/bloc/errorhandle_bloc.dart';
+import 'package:Core/core/page-core/bloc/errorhandle_bloc.dart';
 import 'dart:async';
-import 'package:Midas/core/page-core/service_custom.dart';
+import 'package:Core/core/page-core/service_custom.dart';
 import '../../../core/page-core/service_custom.dart';
 
 class HoaHongCaNhanService extends ServiceCustom {

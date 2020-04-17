@@ -1,5 +1,5 @@
-import 'package:Midas/core/translate/public.dart';
-import 'package:Midas/utils/theme.dart';
+import 'package:Core/core/translate/public.dart';
+import 'package:Core/utils/theme.dart';
 import 'package:flutter/material.dart';
 
 class AppBarThanhVien extends StatefulWidget with PreferredSizeWidget{

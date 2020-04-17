@@ -1,7 +1,7 @@
-import 'package:Midas/core/page-core/bloc/errorhandle_bloc.dart';
-import 'package:Midas/widgets/hoa_hong_thang/model/index.dart';
+import 'package:Core/core/page-core/bloc/errorhandle_bloc.dart';
+import 'package:Core/widgets/hoa_hong_thang/model/index.dart';
 import 'dart:async';
-import 'package:Midas/core/page-core/service_custom.dart';
+import 'package:Core/core/page-core/service_custom.dart';
 import '../../../core/page-core/service_custom.dart';
 
 class HoaHongThangService extends ServiceCustom {

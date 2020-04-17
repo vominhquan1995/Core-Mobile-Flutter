@@ -1,8 +1,8 @@
-import 'package:Midas/core/cart/model/cart_model.dart';
-import 'package:Midas/core/config_json/bloc/configjson_bloc.dart';
-import 'package:Midas/core/config_json/models/config_json.dart';
-import 'package:Midas/utils/index.dart';
-import 'package:Midas/widgets/shared/text_html/text_html.dart';
+import 'package:Core/core/cart/model/cart_model.dart';
+import 'package:Core/core/config_json/bloc/configjson_bloc.dart';
+import 'package:Core/core/config_json/models/config_json.dart';
+import 'package:Core/utils/index.dart';
+import 'package:Core/widgets/shared/text_html/text_html.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_svg/flutter_svg.dart';

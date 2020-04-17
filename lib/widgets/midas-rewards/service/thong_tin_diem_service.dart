@@ -1,8 +1,8 @@
-import 'package:Midas/core/page-core/bloc/errorhandle_bloc.dart';
-import 'package:Midas/widgets/midas-rewards/model/huong_dang_model.dart';
-import 'package:Midas/widgets/midas-rewards/model/thong_tin_diem_model.dart';
+import 'package:Core/core/page-core/bloc/errorhandle_bloc.dart';
+import 'package:Core/widgets/midas-rewards/model/huong_dang_model.dart';
+import 'package:Core/widgets/midas-rewards/model/thong_tin_diem_model.dart';
 import 'dart:async';
-import 'package:Midas/core/page-core/service_custom.dart';
+import 'package:Core/core/page-core/service_custom.dart';
 import '../../../core/page-core/service_custom.dart';
 
 class ThongTinDiemService extends ServiceCustom {

@@ -1,11 +1,11 @@
-import 'package:Midas/core/authentication/bloc/bloc.dart';
-import 'package:Midas/core/config_json/bloc/configjson_bloc.dart';
-import 'package:Midas/core/custom_translate/easy_localization.dart';
-import 'package:Midas/core/translate/public.dart';
-import 'package:Midas/main.dart';
-import 'package:Midas/widgets/quoc_gia/widgets/checkbox_custom.dart';
-import 'package:Midas/widgets/shared/buttonMidas/button_midas.dart';
-import 'package:Midas/widgets/shared/loading/loading_widget.dart';
+import 'package:Core/core/authentication/bloc/bloc.dart';
+import 'package:Core/core/config_json/bloc/configjson_bloc.dart';
+import 'package:Core/core/custom_translate/easy_localization.dart';
+import 'package:Core/core/translate/public.dart';
+import 'package:Core/main.dart';
+import 'package:Core/widgets/quoc_gia/widgets/checkbox_custom.dart';
+import 'package:Core/widgets/shared/buttonMidas/button_midas.dart';
+import 'package:Core/widgets/shared/loading/loading_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

@@ -1,11 +1,11 @@
-import 'package:Midas/core/authentication/login-mobile/index.dart';
-import 'package:Midas/core/authentication/phone_auth/index.dart';
-import 'package:Midas/core/config_json/bloc/configjson_bloc.dart';
-import 'package:Midas/core/config_json/models/config_json.dart';
-import 'package:Midas/core/data-status/data-status_widget.dart';
+import 'package:Core/core/authentication/login-mobile/index.dart';
+import 'package:Core/core/authentication/phone_auth/index.dart';
+import 'package:Core/core/config_json/bloc/configjson_bloc.dart';
+import 'package:Core/core/config_json/models/config_json.dart';
+import 'package:Core/core/data-status/data-status_widget.dart';
 import 'package:flutter/material.dart';
-import 'package:Midas/core/connection-status/index.dart';
-import 'package:Midas/core/function/snackbar.dart';
+import 'package:Core/core/connection-status/index.dart';
+import 'package:Core/core/function/snackbar.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 import '../../../utils/index.dart';

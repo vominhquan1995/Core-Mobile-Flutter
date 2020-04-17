@@ -1,4 +1,4 @@
-import 'package:Midas/core/cart/model/cart_model.dart';
+import 'package:Core/core/cart/model/cart_model.dart';
 import 'package:equatable/equatable.dart';
 
 abstract class InfoState {

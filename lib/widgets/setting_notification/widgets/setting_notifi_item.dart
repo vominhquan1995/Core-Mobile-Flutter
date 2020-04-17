@@ -1,13 +1,13 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:Midas/core/page-core/bloc/bloc.dart';
-import 'package:Midas/utils/theme.dart';
-import 'package:Midas/utils/index.dart';
-import 'package:Midas/widgets/setting_notification/bloc/bloc_setting_notificatiom.dart';
-import 'package:Midas/widgets/setting_notification/model/setting_categories_notifi_model.dart';
-import 'package:Midas/widgets/setting_notification/service/setting_notification_service.dart';
-import 'package:Midas/widgets/shared/border-dash/index.dart';
+import 'package:Core/core/page-core/bloc/bloc.dart';
+import 'package:Core/utils/theme.dart';
+import 'package:Core/utils/index.dart';
+import 'package:Core/widgets/setting_notification/bloc/bloc_setting_notificatiom.dart';
+import 'package:Core/widgets/setting_notification/model/setting_categories_notifi_model.dart';
+import 'package:Core/widgets/setting_notification/service/setting_notification_service.dart';
+import 'package:Core/widgets/shared/border-dash/index.dart';
 
 class SettingNotifiItem extends StatefulWidget {
   final SettingCategoryNotifiModel category;

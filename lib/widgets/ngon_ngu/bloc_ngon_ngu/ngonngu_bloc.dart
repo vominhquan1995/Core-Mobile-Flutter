@@ -1,7 +1,7 @@
 import 'dart:async';
 
-import 'package:Midas/widgets/ngon_ngu/service/ngon_ngu_service.dart';
-import 'package:Midas/widgets/quoc_gia/models/quocgia_model.dart';
+import 'package:Core/widgets/ngon_ngu/service/ngon_ngu_service.dart';
+import 'package:Core/widgets/quoc_gia/models/quocgia_model.dart';
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
 import 'package:flutter/material.dart';

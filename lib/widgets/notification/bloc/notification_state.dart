@@ -1,5 +1,5 @@
 import 'package:equatable/equatable.dart';
-import 'package:Midas/widgets/notification/model/notification_model.dart';
+import 'package:Core/widgets/notification/model/notification_model.dart';
 
 abstract class NotificationState extends Equatable {
   const NotificationState();

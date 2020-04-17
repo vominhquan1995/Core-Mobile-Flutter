@@ -2,9 +2,9 @@ import 'dart:async';
 import 'dart:io';
 import 'package:dio/adapter.dart';
 import 'package:dio/dio.dart';
-import 'package:Midas/core/page-core/bloc/errorhandle_bloc.dart';
-import 'package:Midas/core/page-core/service_custom.dart';
-import 'package:Midas/utils/index.dart';
+import 'package:Core/core/page-core/bloc/errorhandle_bloc.dart';
+import 'package:Core/core/page-core/service_custom.dart';
+import 'package:Core/utils/index.dart';
 import 'package:path/path.dart';
 
 class UploadImageService extends ServiceCustom {

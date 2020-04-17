@@ -1,6 +1,6 @@
-import 'package:Midas/core/cart/db/cart_provider.dart';
-import 'package:Midas/core/cart/model/cart_model.dart';
-import 'package:Midas/core/page-core/service_custom.dart';
+import 'package:Core/core/cart/db/cart_provider.dart';
+import 'package:Core/core/cart/model/cart_model.dart';
+import 'package:Core/core/page-core/service_custom.dart';
 
 class CoreCartService extends ServiceCustom {
   CoreCartService() : super(null);

@@ -1,7 +1,7 @@
 import 'dart:async';
 
-import 'package:Midas/widgets/midas-rewards/model/huong_dang_model.dart';
-import 'package:Midas/widgets/midas-rewards/service/thong_tin_diem_service.dart';
+import 'package:Core/widgets/midas-rewards/model/huong_dang_model.dart';
+import 'package:Core/widgets/midas-rewards/service/thong_tin_diem_service.dart';
 import 'package:bloc/bloc.dart';
 import 'package:meta/meta.dart';
 

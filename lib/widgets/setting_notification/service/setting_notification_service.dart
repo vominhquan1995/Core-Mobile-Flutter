@@ -1,10 +1,10 @@
 import 'dart:io';
 
 import 'package:device_id/device_id.dart';
-import 'package:Midas/core/page-core/bloc/errorhandle_bloc.dart';
-import 'package:Midas/core/page-core/service_custom.dart';
-import 'package:Midas/utils/index.dart';
-import 'package:Midas/widgets/setting_notification/index.dart';
+import 'package:Core/core/page-core/bloc/errorhandle_bloc.dart';
+import 'package:Core/core/page-core/service_custom.dart';
+import 'package:Core/utils/index.dart';
+import 'package:Core/widgets/setting_notification/index.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class SettingNotificationService extends ServiceCustom {

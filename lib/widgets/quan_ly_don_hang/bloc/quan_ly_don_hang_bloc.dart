@@ -1,8 +1,8 @@
 import 'dart:async';
 import 'dart:io';
 
-import 'package:Midas/widgets/quan_ly_don_hang/model/don_hang_model_2.dart';
-import 'package:Midas/widgets/quan_ly_don_hang/service/quan_ly_don_hang_service.dart';
+import 'package:Core/widgets/quan_ly_don_hang/model/don_hang_model_2.dart';
+import 'package:Core/widgets/quan_ly_don_hang/service/quan_ly_don_hang_service.dart';
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
 import 'package:meta/meta.dart';

@@ -1,4 +1,4 @@
-import 'package:Midas/widgets/shared/image-custom/image-custom.dart';
+import 'package:Core/widgets/shared/image-custom/image-custom.dart';
 import 'package:flutter/material.dart';
 
 class ItemInListView extends StatelessWidget {

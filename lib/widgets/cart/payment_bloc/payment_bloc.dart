@@ -1,9 +1,9 @@
 import 'dart:async';
-import 'package:Midas/widgets/cart/payment_bloc/payment_event.dart';
-import 'package:Midas/widgets/cart/payment_bloc/payment_state.dart';
+import 'package:Core/widgets/cart/payment_bloc/payment_event.dart';
+import 'package:Core/widgets/cart/payment_bloc/payment_state.dart';
 import 'package:bloc/bloc.dart';
 import 'package:flutter/foundation.dart';
-import 'package:Midas/widgets/cart/service/cart_service.dart';
+import 'package:Core/widgets/cart/service/cart_service.dart';
 
 class PaymentBloc extends Bloc<PaymentEvent, PaymentState> {
   CartService service;

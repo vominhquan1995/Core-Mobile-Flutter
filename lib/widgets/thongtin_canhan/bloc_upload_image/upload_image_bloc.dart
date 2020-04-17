@@ -1,8 +1,8 @@
 import 'dart:async';
 import 'package:bloc/bloc.dart';
 import 'package:meta/meta.dart';
-import 'package:Midas/utils/dio_util.dart';
-import 'package:Midas/widgets/thongtin_canhan/service/upload_image_service.dart';
+import 'package:Core/utils/dio_util.dart';
+import 'package:Core/widgets/thongtin_canhan/service/upload_image_service.dart';
 import './bloc.dart';
 
 class BlocUploadImageBloc

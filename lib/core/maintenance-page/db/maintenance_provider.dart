@@ -1,7 +1,7 @@
-import 'package:Midas/core/bao-tri/db/baotri_provider.dart';
-import 'package:Midas/core/bao-tri/models/baotri.dart';
-import 'package:Midas/core/database/base_db_provider.dart';
-import 'package:Midas/core/database/dbhelper.dart';
+import 'package:Core/core/bao-tri/db/baotri_provider.dart';
+import 'package:Core/core/bao-tri/models/baotri.dart';
+import 'package:Core/core/database/base_db_provider.dart';
+import 'package:Core/core/database/dbhelper.dart';
 
 class MaintenanceProvider extends BaseProvider<BaoTriLocal> {
   static const KEY = 'MAINTENANCE_PAGE';

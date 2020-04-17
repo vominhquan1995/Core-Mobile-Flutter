@@ -1,4 +1,4 @@
-import 'package:Midas/widgets/quoc_gia/models/quocgia_model.dart';
+import 'package:Core/widgets/quoc_gia/models/quocgia_model.dart';
 import 'package:equatable/equatable.dart';
 import 'package:meta/meta.dart';
 

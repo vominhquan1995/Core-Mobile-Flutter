@@ -1,6 +1,6 @@
 import 'dart:ui';
-import 'package:Midas/core/translate/public.dart';
-import 'package:Midas/utils/index.dart';
+import 'package:Core/core/translate/public.dart';
+import 'package:Core/utils/index.dart';
 import 'package:json_annotation/json_annotation.dart';
 part 'request_upgrade_model.g.dart';
 

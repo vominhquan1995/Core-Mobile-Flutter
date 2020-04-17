@@ -1,8 +1,8 @@
 import 'dart:async';
 import 'dart:io';
-import 'package:Midas/core/config_json/db/config_json_provider.dart';
-import 'package:Midas/core/config_json/models/config_json.dart';
-import 'package:Midas/core/config_json/service/configjson_service.dart';
+import 'package:Core/core/config_json/db/config_json_provider.dart';
+import 'package:Core/core/config_json/models/config_json.dart';
+import 'package:Core/core/config_json/service/configjson_service.dart';
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
 import 'package:flutter/material.dart';

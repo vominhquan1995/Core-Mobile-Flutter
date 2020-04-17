@@ -1,13 +1,13 @@
-import 'package:Midas/core/config_json/bloc/configjson_bloc.dart';
-import 'package:Midas/core/config_json/models/config_json.dart';
-import 'package:Midas/core/connection-status/index.dart';
-import 'package:Midas/core/translate/public.dart';
-import 'package:Midas/core/page-core/bloc/bloc.dart';
-import 'package:Midas/core/page-core/widget_custom.dart';
-import 'package:Midas/utils/theme.dart';
-import 'package:Midas/widgets/midas-rewards/model/thong_tin_diem_model.dart';
-import 'package:Midas/widgets/midas-rewards/widget/widget/drop_down_search.dart';
-import 'package:Midas/widgets/shared/text_html/text_html.dart';
+import 'package:Core/core/config_json/bloc/configjson_bloc.dart';
+import 'package:Core/core/config_json/models/config_json.dart';
+import 'package:Core/core/connection-status/index.dart';
+import 'package:Core/core/translate/public.dart';
+import 'package:Core/core/page-core/bloc/bloc.dart';
+import 'package:Core/core/page-core/widget_custom.dart';
+import 'package:Core/utils/theme.dart';
+import 'package:Core/widgets/midas-rewards/model/thong_tin_diem_model.dart';
+import 'package:Core/widgets/midas-rewards/widget/widget/drop_down_search.dart';
+import 'package:Core/widgets/shared/text_html/text_html.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

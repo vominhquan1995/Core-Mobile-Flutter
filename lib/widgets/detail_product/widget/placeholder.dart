@@ -1,5 +1,5 @@
 
-import 'package:Midas/utils/index.dart';
+import 'package:Core/utils/index.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:shimmer/shimmer.dart';

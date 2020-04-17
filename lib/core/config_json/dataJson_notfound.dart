@@ -1,4 +1,4 @@
-import 'package:Midas/core/translate/localization.dart';
+import 'package:Core/core/translate/localization.dart';
 import 'package:flutter/material.dart';
 
 class DataJsonNotFound extends StatelessWidget {

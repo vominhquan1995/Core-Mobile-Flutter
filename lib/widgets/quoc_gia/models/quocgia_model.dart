@@ -1,4 +1,4 @@
-import 'package:Midas/widgets/quoc_gia/db/quocgia_db.dart';
+import 'package:Core/widgets/quoc_gia/db/quocgia_db.dart';
 import 'package:equatable/equatable.dart';
 import 'package:json_annotation/json_annotation.dart';
 

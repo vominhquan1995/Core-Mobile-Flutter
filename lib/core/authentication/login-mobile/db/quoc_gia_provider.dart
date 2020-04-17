@@ -1,4 +1,4 @@
-import 'package:Midas/core/authentication/login-mobile/index.dart';
+import 'package:Core/core/authentication/login-mobile/index.dart';
 
 import '../../../database/dbhelper.dart';
 

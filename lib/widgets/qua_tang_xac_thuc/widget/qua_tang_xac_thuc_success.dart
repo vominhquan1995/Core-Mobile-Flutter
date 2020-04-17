@@ -1,11 +1,11 @@
-import 'package:Midas/core/config_json/bloc/configjson_bloc.dart';
-import 'package:Midas/core/config_json/models/config_json.dart';
-import 'package:Midas/core/custom_translate/easy_localization_delegate.dart';
-import 'package:Midas/core/translate/public.dart';
-import 'package:Midas/core/page-core/widget_custom.dart';
-import 'package:Midas/utils/theme.dart';
-import 'package:Midas/widgets/midas-rewards/midas_rewards_page.dart';
-import 'package:Midas/widgets/shared/text_html/text_html.dart';
+import 'package:Core/core/config_json/bloc/configjson_bloc.dart';
+import 'package:Core/core/config_json/models/config_json.dart';
+import 'package:Core/core/custom_translate/easy_localization_delegate.dart';
+import 'package:Core/core/translate/public.dart';
+import 'package:Core/core/page-core/widget_custom.dart';
+import 'package:Core/utils/theme.dart';
+import 'package:Core/widgets/midas-rewards/midas_rewards_page.dart';
+import 'package:Core/widgets/shared/text_html/text_html.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

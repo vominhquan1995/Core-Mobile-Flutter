@@ -1,10 +1,10 @@
 import 'dart:async';
 import 'dart:io';
 
-import 'package:Midas/widgets/thanh_vien_f2_f3/db/news_provider.dart';
-import 'package:Midas/widgets/thanh_vien_f2_f3/model/index.dart';
-import 'package:Midas/widgets/thanh_vien_f2_f3/model/thanh_vien.m.dart';
-import 'package:Midas/widgets/thanh_vien_f2_f3/service/thanh_vien_service.dart';
+import 'package:Core/widgets/thanh_vien_f2_f3/db/news_provider.dart';
+import 'package:Core/widgets/thanh_vien_f2_f3/model/index.dart';
+import 'package:Core/widgets/thanh_vien_f2_f3/model/thanh_vien.m.dart';
+import 'package:Core/widgets/thanh_vien_f2_f3/service/thanh_vien_service.dart';
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
 import 'package:meta/meta.dart';

@@ -1,12 +1,12 @@
-import 'package:Midas/widgets/upgrade_account/widgets/widget_modal_address.dart';
-import 'package:Midas/core/translate/public.dart';
-import 'package:Midas/utils/index.dart';
-import 'package:Midas/widgets/upgrade_account/model/address_model.dart';
-import 'package:Midas/widgets/upgrade_account/widgets/widget_form.dart';
+import 'package:Core/widgets/upgrade_account/widgets/widget_modal_address.dart';
+import 'package:Core/core/translate/public.dart';
+import 'package:Core/utils/index.dart';
+import 'package:Core/widgets/upgrade_account/model/address_model.dart';
+import 'package:Core/widgets/upgrade_account/widgets/widget_form.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:Midas/widgets/upgrade_account/bloc_address/address_bloc.dart';
+import 'package:Core/widgets/upgrade_account/bloc_address/address_bloc.dart';
 
 class SelectAddress {
   Province provinceSelected;

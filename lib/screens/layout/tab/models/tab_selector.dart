@@ -1,4 +1,4 @@
-import 'package:Midas/screens/layout/tab/bloc/bloc.dart';
+import 'package:Core/screens/layout/tab/bloc/bloc.dart';
 
 import 'tab_page.dart';
 

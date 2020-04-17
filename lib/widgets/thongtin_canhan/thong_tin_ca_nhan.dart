@@ -1,26 +1,26 @@
-import 'package:Midas/core/connection-status/index.dart';
-import 'package:Midas/core/translate/public.dart';
-import 'package:Midas/core/function/snackbar.dart';
-import 'package:Midas/core/page-core/widget_custom.dart';
-import 'package:Midas/screens/setting_notification.dart';
-import 'package:Midas/widgets/shared/buttonMidas/button_midas.dart';
-import 'package:Midas/widgets/shared/user_need_login/user_need_login.dart';
-import 'package:Midas/widgets/tai_khoan/widgets/item_quanly.dart';
-import 'package:Midas/widgets/thongtin_canhan/bloc_thongtin_canhan/thongtincanhan_bloc.dart';
-import 'package:Midas/widgets/thongtin_canhan/edit_profile.dart';
-import 'package:Midas/widgets/thongtin_canhan/service/thongtin_canhan_service.dart';
-import 'package:Midas/widgets/thongtin_canhan/widgets/thongtin_item.dart';
+import 'package:Core/core/connection-status/index.dart';
+import 'package:Core/core/translate/public.dart';
+import 'package:Core/core/function/snackbar.dart';
+import 'package:Core/core/page-core/widget_custom.dart';
+import 'package:Core/screens/setting_notification.dart';
+import 'package:Core/widgets/shared/buttonMidas/button_midas.dart';
+import 'package:Core/widgets/shared/user_need_login/user_need_login.dart';
+import 'package:Core/widgets/tai_khoan/widgets/item_quanly.dart';
+import 'package:Core/widgets/thongtin_canhan/bloc_thongtin_canhan/thongtincanhan_bloc.dart';
+import 'package:Core/widgets/thongtin_canhan/edit_profile.dart';
+import 'package:Core/widgets/thongtin_canhan/service/thongtin_canhan_service.dart';
+import 'package:Core/widgets/thongtin_canhan/widgets/thongtin_item.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:Midas/core/authentication/bloc/bloc.dart';
-import 'package:Midas/core/authentication/models/profile_model.dart';
-import 'package:Midas/core/google_analytics/index.dart';
-import 'package:Midas/core/page-core/bloc/bloc.dart';
+import 'package:Core/core/authentication/bloc/bloc.dart';
+import 'package:Core/core/authentication/models/profile_model.dart';
+import 'package:Core/core/google_analytics/index.dart';
+import 'package:Core/core/page-core/bloc/bloc.dart';
 
-import 'package:Midas/utils/index.dart';
-import 'package:Midas/widgets/thongtin_canhan/bloc_upload_image/bloc.dart';
+import 'package:Core/utils/index.dart';
+import 'package:Core/widgets/thongtin_canhan/bloc_upload_image/bloc.dart';
 
-import 'package:Midas/widgets/thongtin_canhan/service/upload_image_service.dart';
+import 'package:Core/widgets/thongtin_canhan/service/upload_image_service.dart';
 
 import 'bloc_upload_image/upload_image_bloc.dart';
 

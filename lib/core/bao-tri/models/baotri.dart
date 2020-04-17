@@ -1,5 +1,5 @@
 import 'package:equatable/equatable.dart';
-import 'package:Midas/core/bao-tri/db/baotri_provider.dart';
+import 'package:Core/core/bao-tri/db/baotri_provider.dart';
 
 const columnKey = 'key';
 const columnHtml = 'html';

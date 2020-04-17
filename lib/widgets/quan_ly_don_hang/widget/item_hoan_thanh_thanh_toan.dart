@@ -1,5 +1,5 @@
-// import 'package:Midas/utils/theme.dart';
-// import 'package:Midas/widgets/shared/text_html/text_html.dart';
+// import 'package:Core/utils/theme.dart';
+// import 'package:Core/widgets/shared/text_html/text_html.dart';
 // import 'package:flutter/material.dart';
 
 // class ItemTienMat extends StatelessWidget {

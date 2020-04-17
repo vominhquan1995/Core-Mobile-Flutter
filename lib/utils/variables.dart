@@ -2,7 +2,7 @@ import 'package:firebase_core/firebase_core.dart';
 
 class Variables {
   static int appId = 80;
-  static bool isDevelop = false;
+  static bool isDevelop = true;
 
   ///Version db trong sqlite
   ///Đặt theo quy tắc ngày public

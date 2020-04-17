@@ -1,6 +1,6 @@
-import 'package:Midas/utils/index.dart';
-import 'package:Midas/widgets/lich_su_diem/model/index.dart';
-import 'package:Midas/widgets/lich_su_hoa_hong/model/index.dart';
+import 'package:Core/utils/index.dart';
+import 'package:Core/widgets/lich_su_diem/model/index.dart';
+import 'package:Core/widgets/lich_su_hoa_hong/model/index.dart';
 import 'package:flutter/material.dart';
 
 class ItemHoaHong extends StatelessWidget {

@@ -1,14 +1,14 @@
 import 'dart:async';
 
-import 'package:Midas/core/authentication/bloc/bloc.dart';
-import 'package:Midas/core/authentication/login-mobile/bloc/bloc_form_dien_thoai/form_dien_thoai_bloc.dart';
-import 'package:Midas/core/authentication/login-mobile/bloc/bloc_form_dien_thoai/form_dien_thoai_event.dart';
-import 'package:Midas/core/authentication/login-mobile/bloc/bloc_form_sms/index.dart';
-import 'package:Midas/core/translate/public.dart';
-import 'package:Midas/core/notification/bloc/index.dart';
-import 'package:Midas/utils/index.dart';
-import 'package:Midas/widgets/quoc_gia/bloc/quocgia_bloc.dart';
-import 'package:Midas/widgets/shared/buttonMidas/button_midas.dart';
+import 'package:Core/core/authentication/bloc/bloc.dart';
+import 'package:Core/core/authentication/login-mobile/bloc/bloc_form_dien_thoai/form_dien_thoai_bloc.dart';
+import 'package:Core/core/authentication/login-mobile/bloc/bloc_form_dien_thoai/form_dien_thoai_event.dart';
+import 'package:Core/core/authentication/login-mobile/bloc/bloc_form_sms/index.dart';
+import 'package:Core/core/translate/public.dart';
+import 'package:Core/core/notification/bloc/index.dart';
+import 'package:Core/utils/index.dart';
+import 'package:Core/widgets/quoc_gia/bloc/quocgia_bloc.dart';
+import 'package:Core/widgets/shared/buttonMidas/button_midas.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

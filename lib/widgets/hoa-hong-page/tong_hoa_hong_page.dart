@@ -1,13 +1,13 @@
-import 'package:Midas/core/connection-status/index.dart';
-import 'package:Midas/core/translate/public.dart';
+import 'package:Core/core/connection-status/index.dart';
+import 'package:Core/core/translate/public.dart';
 
-import 'package:Midas/core/function/snackbar.dart';
-import 'package:Midas/core/page-core/bloc/bloc.dart';
-import 'package:Midas/core/page-core/widget_custom.dart';
-import 'package:Midas/utils/theme.dart';
-import 'package:Midas/widgets/hoa-hong-page/bloc/hoa_hong_ca_nhan_bloc.dart';
-import 'package:Midas/widgets/hoa_hong_thang/hoa_hong_thang_list_page.dart';
-import 'package:Midas/widgets/lich_su_hoa_hong/lich_su_hoa_hong_list_page.dart';
+import 'package:Core/core/function/snackbar.dart';
+import 'package:Core/core/page-core/bloc/bloc.dart';
+import 'package:Core/core/page-core/widget_custom.dart';
+import 'package:Core/utils/theme.dart';
+import 'package:Core/widgets/hoa-hong-page/bloc/hoa_hong_ca_nhan_bloc.dart';
+import 'package:Core/widgets/hoa_hong_thang/hoa_hong_thang_list_page.dart';
+import 'package:Core/widgets/lich_su_hoa_hong/lich_su_hoa_hong_list_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

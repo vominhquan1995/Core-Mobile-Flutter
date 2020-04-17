@@ -1,17 +1,17 @@
-import 'package:Midas/core/cart/bloc/core_cart_bloc.dart';
-import 'package:Midas/core/cart/bloc/core_cart_event.dart';
-import 'package:Midas/core/cart/model/cart_model.dart';
-import 'package:Midas/core/config_json/bloc/configjson_bloc.dart';
-import 'package:Midas/core/config_json/models/config_json.dart';
-import 'package:Midas/utils/index.dart';
-import 'package:Midas/widgets/shared/border-dash/index.dart';
-import 'package:Midas/widgets/shared/image-custom/image-custom.dart';
+import 'package:Core/core/cart/bloc/core_cart_bloc.dart';
+import 'package:Core/core/cart/bloc/core_cart_event.dart';
+import 'package:Core/core/cart/model/cart_model.dart';
+import 'package:Core/core/config_json/bloc/configjson_bloc.dart';
+import 'package:Core/core/config_json/models/config_json.dart';
+import 'package:Core/utils/index.dart';
+import 'package:Core/widgets/shared/border-dash/index.dart';
+import 'package:Core/widgets/shared/image-custom/image-custom.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:intl/intl.dart';
 import 'package:shimmer/shimmer.dart';
 
-import 'package:Midas/widgets/cart/cart_bloc/bloc.dart';
+import 'package:Core/widgets/cart/cart_bloc/bloc.dart';
 
 class CartItem extends StatelessWidget {
   final CartItemModel cartItem;

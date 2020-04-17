@@ -1,6 +1,6 @@
 import 'dart:async';
-import 'package:Midas/utils/index.dart';
-import 'package:Midas/widgets/upgrade_account/service/image_service.dart';
+import 'package:Core/utils/index.dart';
+import 'package:Core/widgets/upgrade_account/service/image_service.dart';
 import 'package:bloc/bloc.dart';
 import 'package:meta/meta.dart';
 import './bloc.dart';

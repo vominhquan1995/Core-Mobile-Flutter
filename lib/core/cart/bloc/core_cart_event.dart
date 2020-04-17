@@ -1,4 +1,4 @@
-import 'package:Midas/core/cart/model/cart_model.dart';
+import 'package:Core/core/cart/model/cart_model.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:meta/meta.dart';
 import 'package:equatable/equatable.dart';

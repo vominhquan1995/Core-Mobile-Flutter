@@ -1,6 +1,6 @@
-import 'package:Midas/core/database/base_db_provider.dart';
-import 'package:Midas/core/database/dbhelper.dart';
-import 'package:Midas/widgets/quoc_gia/models/quocgia_model.dart';
+import 'package:Core/core/database/base_db_provider.dart';
+import 'package:Core/core/database/dbhelper.dart';
+import 'package:Core/widgets/quoc_gia/models/quocgia_model.dart';
 
 ///Kiểu bool trong sqlite: integers 0 (false) and 1 (true).
 class QuocGiaDB implements BaseProvider<QuocGiaModel> {

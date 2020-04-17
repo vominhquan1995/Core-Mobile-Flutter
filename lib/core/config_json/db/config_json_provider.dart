@@ -1,8 +1,8 @@
 import 'dart:convert';
 
-import 'package:Midas/core/config_json/models/config_json.dart';
-import 'package:Midas/core/database/base_db_provider.dart';
-import 'package:Midas/core/database/dbhelper.dart';
+import 'package:Core/core/config_json/models/config_json.dart';
+import 'package:Core/core/database/base_db_provider.dart';
+import 'package:Core/core/database/dbhelper.dart';
 
 const String columnDataConfig = "data";
 

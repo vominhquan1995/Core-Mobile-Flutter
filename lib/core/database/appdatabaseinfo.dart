@@ -1,12 +1,12 @@
-import 'package:Midas/core/authentication/db/authen_provider.dart';
-import 'package:Midas/core/bao-tri/db/baotri_provider.dart';
-import 'package:Midas/core/cart/db/cart_provider.dart';
-import 'package:Midas/core/config_json/db/config_json_provider.dart';
-import 'package:Midas/core/database/tables.dart';
-import 'package:Midas/core/notification/index.dart';
-import 'package:Midas/utils/index.dart';
-import 'package:Midas/widgets/quoc_gia/db/quocgia_db.dart';
-import 'package:Midas/widgets/thanh_vien_f2_f3/db/news_provider.dart';
+import 'package:Core/core/authentication/db/authen_provider.dart';
+import 'package:Core/core/bao-tri/db/baotri_provider.dart';
+import 'package:Core/core/cart/db/cart_provider.dart';
+import 'package:Core/core/config_json/db/config_json_provider.dart';
+import 'package:Core/core/database/tables.dart';
+import 'package:Core/core/notification/index.dart';
+import 'package:Core/utils/index.dart';
+import 'package:Core/widgets/quoc_gia/db/quocgia_db.dart';
+import 'package:Core/widgets/thanh_vien_f2_f3/db/news_provider.dart';
 
 import 'package:sqflite/sqflite.dart';
 

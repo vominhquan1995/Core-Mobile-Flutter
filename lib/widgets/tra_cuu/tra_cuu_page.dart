@@ -1,12 +1,12 @@
-import 'package:Midas/core/connection-status/index.dart';
-import 'package:Midas/core/custom_translate/easy_localization.dart';
-import 'package:Midas/core/translate/public.dart';
-import 'package:Midas/core/function/snackbar.dart';
-import 'package:Midas/core/page-core/bloc/bloc.dart';
-import 'package:Midas/utils/index.dart';
-import 'package:Midas/widgets/shared/sizedbox_bottom/sizedbox_bottom.dart';
-import 'package:Midas/widgets/tra_cuu/models/news_model.dart';
-import 'package:Midas/widgets/tra_cuu/news_detail_page.dart';
+import 'package:Core/core/connection-status/index.dart';
+import 'package:Core/core/custom_translate/easy_localization.dart';
+import 'package:Core/core/translate/public.dart';
+import 'package:Core/core/function/snackbar.dart';
+import 'package:Core/core/page-core/bloc/bloc.dart';
+import 'package:Core/utils/index.dart';
+import 'package:Core/widgets/shared/sizedbox_bottom/sizedbox_bottom.dart';
+import 'package:Core/widgets/tra_cuu/models/news_model.dart';
+import 'package:Core/widgets/tra_cuu/news_detail_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

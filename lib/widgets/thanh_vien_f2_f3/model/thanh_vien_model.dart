@@ -1,5 +1,5 @@
-import 'package:Midas/core/google_analytics/google_analytics_page.dart';
-import 'package:Midas/widgets/thanh_vien_f2_f3/db/news_provider.dart';
+import 'package:Core/core/google_analytics/google_analytics_page.dart';
+import 'package:Core/widgets/thanh_vien_f2_f3/db/news_provider.dart';
 
 class PhanCapModel {
   String tai_khoan;

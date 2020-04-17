@@ -1,8 +1,8 @@
 import 'dart:async';
-import 'package:Midas/widgets/cart/info_bloc/bloc.dart';
+import 'package:Core/widgets/cart/info_bloc/bloc.dart';
 import 'package:bloc/bloc.dart';
 import 'package:flutter/foundation.dart';
-import 'package:Midas/widgets/cart/service/cart_service.dart';
+import 'package:Core/widgets/cart/service/cart_service.dart';
 
 class InfoBloc extends Bloc<InfoEvent, InfoState> {
   CartService service;

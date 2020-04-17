@@ -1,5 +1,5 @@
-import 'package:Midas/core/page-core/service_custom.dart';
-import 'package:Midas/widgets/quoc_gia/models/quocgia_model.dart';
+import 'package:Core/core/page-core/service_custom.dart';
+import 'package:Core/widgets/quoc_gia/models/quocgia_model.dart';
 
 abstract class IBaseNgonNguService extends ServiceCustom {
   IBaseNgonNguService() : super(null);

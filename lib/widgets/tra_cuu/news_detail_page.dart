@@ -1,9 +1,9 @@
-import 'package:Midas/core/connection-status/index.dart';
-import 'package:Midas/core/data-status/index.dart';
-import 'package:Midas/core/google_analytics/index.dart';
-import 'package:Midas/utils/index.dart';
-import 'package:Midas/widgets/detail_product/widget/app_bar_simple.dart';
-import 'package:Midas/widgets/tra_cuu/models/news_model.dart';
+import 'package:Core/core/connection-status/index.dart';
+import 'package:Core/core/data-status/index.dart';
+import 'package:Core/core/google_analytics/index.dart';
+import 'package:Core/utils/index.dart';
+import 'package:Core/widgets/detail_product/widget/app_bar_simple.dart';
+import 'package:Core/widgets/tra_cuu/models/news_model.dart';
 import 'package:flutter/material.dart';
 
 import 'package:flutter_webview_plugin/flutter_webview_plugin.dart';

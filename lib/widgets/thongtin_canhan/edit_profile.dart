@@ -1,10 +1,10 @@
-import 'package:Midas/core/authentication/bloc/bloc.dart';
-import 'package:Midas/core/authentication/models/profile_model.dart';
-import 'package:Midas/core/custom_translate/easy_localization.dart';
-import 'package:Midas/core/translate/public.dart';
-import 'package:Midas/utils/theme.dart';
-import 'package:Midas/widgets/shared/buttonMidas/button_midas.dart';
-import 'package:Midas/widgets/thongtin_canhan/bloc_thongtin_canhan/thongtincanhan_bloc.dart';
+import 'package:Core/core/authentication/bloc/bloc.dart';
+import 'package:Core/core/authentication/models/profile_model.dart';
+import 'package:Core/core/custom_translate/easy_localization.dart';
+import 'package:Core/core/translate/public.dart';
+import 'package:Core/utils/theme.dart';
+import 'package:Core/widgets/shared/buttonMidas/button_midas.dart';
+import 'package:Core/widgets/thongtin_canhan/bloc_thongtin_canhan/thongtincanhan_bloc.dart';
 import 'package:enum_to_string/enum_to_string.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';

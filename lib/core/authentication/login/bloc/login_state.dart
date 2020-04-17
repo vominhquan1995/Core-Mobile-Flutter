@@ -1,6 +1,6 @@
 import 'package:meta/meta.dart';
 import 'package:equatable/equatable.dart';
-import 'package:Midas/core/authentication/models/profile_model.dart';
+import 'package:Core/core/authentication/models/profile_model.dart';
 
 abstract class LoginState extends Equatable {
   const LoginState();

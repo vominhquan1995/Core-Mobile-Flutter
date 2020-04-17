@@ -1,12 +1,12 @@
-import 'package:Midas/core/config_json/bloc/configjson_bloc.dart';
-import 'package:Midas/core/config_json/models/config_json.dart';
-import 'package:Midas/core/page-core/bloc/errorhandle_bloc.dart';
-import 'package:Midas/widgets/qua_tang_xac_thuc/bloc/qua_tang_xac_thuc_bloc.dart';
-import 'package:Midas/widgets/qua_tang_xac_thuc/bloc/qua_tang_xac_thuc_event.dart';
-import 'package:Midas/widgets/qua_tang_xac_thuc/service/qua_tang_xac_thuc_service.dart';
-import 'package:Midas/widgets/qua_tang_xac_thuc/widget/nhap_ma_xac_thuc.dart';
-import 'package:Midas/widgets/qua_tang_xac_thuc/widget/qua_tang_xac_thuc_success.dart';
-import 'package:Midas/widgets/qua_tang_xac_thuc/widget/waiting_xac_thuc.dart';
+import 'package:Core/core/config_json/bloc/configjson_bloc.dart';
+import 'package:Core/core/config_json/models/config_json.dart';
+import 'package:Core/core/page-core/bloc/errorhandle_bloc.dart';
+import 'package:Core/widgets/qua_tang_xac_thuc/bloc/qua_tang_xac_thuc_bloc.dart';
+import 'package:Core/widgets/qua_tang_xac_thuc/bloc/qua_tang_xac_thuc_event.dart';
+import 'package:Core/widgets/qua_tang_xac_thuc/service/qua_tang_xac_thuc_service.dart';
+import 'package:Core/widgets/qua_tang_xac_thuc/widget/nhap_ma_xac_thuc.dart';
+import 'package:Core/widgets/qua_tang_xac_thuc/widget/qua_tang_xac_thuc_success.dart';
+import 'package:Core/widgets/qua_tang_xac_thuc/widget/waiting_xac_thuc.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

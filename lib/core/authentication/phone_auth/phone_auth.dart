@@ -1,4 +1,4 @@
-import 'package:Midas/core/authentication/phone_auth/service/index.dart';
+import 'package:Core/core/authentication/phone_auth/service/index.dart';
 import 'package:dio/dio.dart';
 
 import '../authentication_service.dart';

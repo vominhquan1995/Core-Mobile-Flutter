@@ -1,6 +1,6 @@
 import 'package:equatable/equatable.dart';
 import 'package:meta/meta.dart';
-import 'package:Midas/core/menu/bloc/index.dart';
+import 'package:Core/core/menu/bloc/index.dart';
 
 @immutable
 abstract class MenuState extends Equatable {

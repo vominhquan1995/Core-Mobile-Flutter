@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:Midas/core/authentication/bloc/bloc.dart';
-import 'package:Midas/core/authentication/login/widgets/loginFailure/login_failure.dart';
-import 'package:Midas/core/bao-tri/bloc/bloc.dart';
-import 'package:Midas/widgets/shared/collapsible/collapsible.dart';
-import 'package:Midas/core/google_analytics/index.dart';
+import 'package:Core/core/authentication/bloc/bloc.dart';
+import 'package:Core/core/authentication/login/widgets/loginFailure/login_failure.dart';
+import 'package:Core/core/bao-tri/bloc/bloc.dart';
+import 'package:Core/widgets/shared/collapsible/collapsible.dart';
+import 'package:Core/core/google_analytics/index.dart';
 import '../authentication_service.dart';
 import 'widgets/logo/index.dart';
 import 'widgets/formDangNhap/index.dart';
