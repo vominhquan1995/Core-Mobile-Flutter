@@ -1,8 +1,6 @@
 import 'package:Core/core/config_json/bloc/configjson_bloc.dart';
 import 'package:Core/core/translate/public.dart';
 import 'package:Core/main.dart';
-// import 'package:Core/core/custom_translate/easy_localization.dart';
-// import 'package:Core/core/translate/public.dart';
 import 'package:Core/utils/index.dart';
 import 'package:Core/widgets/ngon_ngu/bloc_ngon_ngu/ngonngu_bloc.dart';
 import 'package:Core/widgets/ngon_ngu/service/ngon_ngu_service.dart';

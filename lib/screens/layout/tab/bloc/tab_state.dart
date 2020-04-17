@@ -1,10 +1,8 @@
-import 'package:Core/screens/danhmuc_screen.dart';
+import 'package:Core/screens/home.dart';
 import 'package:Core/screens/layout/tab/models/tab_page.dart';
 import 'package:Core/screens/layout/tab/models/tab_selector.dart';
-import 'package:Core/screens/my_library.dart';
 import 'package:Core/screens/thongbao_screen.dart';
 import 'package:Core/screens/thongtin_canhan_screen.dart';
-
 import 'package:equatable/equatable.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
@@ -47,20 +45,11 @@ final List<TabSelectorModel> tabSelector = [
   TabSelectorModel(
     tab: AppTab.LIBRARY,
     tabPage: TabPage(
-        page: MyLibraryPage(),
+        page: HomePage(),
         icon: SvgPicture.asset('assets/tabs/home_white.svg'),
         iconActive: SvgPicture.asset('assets/tabs/home.svg'),
         id: "1",
         text: 'tab_1'),
-  ),
-  TabSelectorModel(
-    tab: AppTab.DANHMUC,
-    tabPage: TabPage(
-        page: DanhMucScreen(),
-        icon: SvgPicture.asset('assets/tabs/danhmuc_white.svg'),
-        iconActive: SvgPicture.asset('assets/tabs/danhmuc.svg'),
-        id: "1",
-        text: 'tab_2'),
   ),
   TabSelectorModel(
     tab: AppTab.THONGBAO,

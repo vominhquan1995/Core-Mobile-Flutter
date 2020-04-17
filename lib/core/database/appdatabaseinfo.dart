@@ -6,10 +6,7 @@ import 'package:Core/core/database/tables.dart';
 import 'package:Core/core/notification/index.dart';
 import 'package:Core/utils/index.dart';
 import 'package:Core/widgets/quoc_gia/db/quocgia_db.dart';
-import 'package:Core/widgets/thanh_vien_f2_f3/db/news_provider.dart';
-
 import 'package:sqflite/sqflite.dart';
-
 import 'dbinfo.dart';
 import 'imigrationtask.dart';
 
@@ -39,7 +36,6 @@ class AppDatabaseInfo implements DBInfo, IMigrationTask {
     dbTableNameList.add(BaoTriProvider.TABLE_NAME);
     dbTableNameList.add(CartProvider.CART_TABLE_NAME);
     dbTableNameList.add(CartProvider.INFO_TABLE_NAME);
-    dbTableNameList.add(ThanhVienDB.TABLE_NAME);
     dbTableNameList.add(QuocGiaDB.TABLE_NAME);
     dbTableNameList.add(NotificationCore.TABLE_NAME);
     dbTableNameList.add(ConfigJsonProvider.TABLE_NAME);
@@ -89,7 +85,6 @@ class AppDatabaseInfo implements DBInfo, IMigrationTask {
     dbSchemaQueryList.add(Tables.CREATE_TABLE_QUOCGIA);
     dbSchemaQueryList.add(Tables.CREATE_TABLE_CART);
     dbSchemaQueryList.add(Tables.CREATE_TABLE_CART_INFO);
-    dbSchemaQueryList.add(Tables.CREATE_TABLE_THANHVIEN);
     dbSchemaQueryList.add(Tables.CREATE_TABLE_NOTIFI);
     dbSchemaQueryList.add(Tables.CREATE_TABLE_DATAJSON);
     return dbSchemaQueryList;

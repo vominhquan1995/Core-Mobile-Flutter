@@ -13,7 +13,6 @@ import 'package:Core/core/connection-status/index.dart';
 import 'package:Core/core/function/snackbar.dart';
 import 'package:Core/core/google_analytics/index.dart';
 import 'package:Core/utils/theme.dart';
-
 import 'bloc/bloc.dart';
 import 'model/notification_model.dart';
 import 'widgets/notification_list_item.dart';

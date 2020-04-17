@@ -1,13 +1,11 @@
 import 'dart:async';
 import 'dart:io';
-
 import 'package:Core/core/cart/bloc/index.dart';
 import 'package:Core/core/cart/service/cart_service.dart';
 import 'package:Core/core/config_json/bloc/configjson_bloc.dart';
 import 'package:Core/core/config_json/dataJson_notfound.dart';
 import 'package:Core/core/config_json/models/config_json.dart';
 import 'package:Core/core/config_json/service/configjson_service.dart';
-// import 'package:Core/core/custom_translate/easy_localization.dart';
 import 'package:Core/core/notification/core_notification.dart';
 import 'package:Core/widgets/quoc_gia/bloc/quocgia_bloc.dart';
 import 'package:Core/widgets/quoc_gia/service/quocgia_service.dart';
@@ -19,10 +17,8 @@ import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:rxdart/rxdart.dart';
-
 import 'core/authentication/bloc/bloc.dart';
 import 'core/bao-tri/baotri_page.dart';
 import 'core/bao-tri/bloc/bloc.dart';
@@ -45,11 +41,7 @@ import 'widgets/notification/bloc/bloc.dart';
 import 'widgets/quoc_gia/quoc_gia.dart';
 import 'widgets/shared/loading/loading_widget.dart';
 import 'widgets/shared/overlay/overlay.dart';
-import 'package:provider/provider.dart';
-
-/// nhung thu can lam dau tien khi mo app thi nam o main.dart
-
-/// dung de debug bloc
+//Debug bloc
 class SimpleBlocDelegate extends BlocDelegate {
   @override
   void onTransition(Bloc bloc, Transition transition) {
@@ -59,7 +51,6 @@ class SimpleBlocDelegate extends BlocDelegate {
 
   @override
   void onError(Bloc bloc, Object error, StackTrace stacktrace) {
-    // TODO: implement onError
     super.onError(bloc, error, stacktrace);
     print('$bloc, $error, $stacktrace');
   }
@@ -76,7 +67,7 @@ Future<void> main() async {
 
   /// Cấu hình Firebase
   await FirebaseApp.configure(
-    name: 'Midas',
+    name: 'Core',
     options: Platform.isIOS
         ? Variables.firebaseOptionsIOS
         : Variables.firebaseOptionsAndroid,
@@ -159,7 +150,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return AppBuilder(builder: (context) {
       return MaterialApp(
-        title: 'Midas',
+        title: 'Core',
         theme: themeEduzaa,
         debugShowCheckedModeBanner: false,
         home: AnimatedSwitcher(

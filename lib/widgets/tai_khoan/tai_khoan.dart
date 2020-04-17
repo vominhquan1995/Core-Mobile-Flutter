@@ -1,8 +1,6 @@
 import 'package:Core/core/authentication/bloc/bloc.dart';
 import 'package:Core/core/authentication/login-mobile/index.dart';
 import 'package:Core/core/authentication/models/profile_model.dart';
-import 'package:Core/core/cart/bloc/core_cart_bloc.dart';
-import 'package:Core/core/cart/bloc/core_cart_event.dart';
 import 'package:Core/core/cart/cart_badge.dart';
 import 'package:Core/core/config_json/bloc/configjson_bloc.dart';
 import 'package:Core/core/config_json/models/config_json.dart';
@@ -25,7 +23,6 @@ import 'package:Core/widgets/upgrade_account/info_account_salon.dart';
 import 'package:Core/widgets/upgrade_account/upgrade_account.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 import 'package:package_info/package_info.dart';
 import 'package:url_launcher/url_launcher.dart';
 

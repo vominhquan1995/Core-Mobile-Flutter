@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_webview_plugin/flutter_webview_plugin.dart';
 import 'package:Core/widgets/notification/widgets/notification_detail.dart';
-
 import 'model/notification_model.dart';
 
 //const tAG = 'NOFITICATION_DETAIL_PAGE: ';
