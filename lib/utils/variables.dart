@@ -2,11 +2,11 @@ import 'package:firebase_core/firebase_core.dart';
 
 class Variables {
   static int appId = 80;
-  static bool isDevelop = true;
+  static bool isDevelop = false;
 
   ///Version db trong sqlite
   ///Đặt theo quy tắc ngày public
-  static final developVersionSqlite = 02032020;
+  static final developVersionSqlite = 17042020;
 
   ///api la
   static final developVersionAPI = "100";
@@ -38,19 +38,7 @@ class Variables {
 
   static String get getVersion =>
       isDevelop ? developVersionAPI : releaseVersionAPI;
-
-  /* 
-   page tài khoản
-  */
-  static String get menuHoaHong => isDevelop ? "1046" : "1046";
-  static String get menuThanhVien => isDevelop ? "1047" : "1047";
-
-  /* 
-  page midas-rewards
-  */
-  static String get buttonRutDiem => isDevelop ? "1048" : "1048";
-  static String get buttonLichSuYeuCau => isDevelop ? "1049" : "1049";
-
+      
   ///relese
   static FirebaseOptions get firebaseOptionsIOS => FirebaseOptions(
         googleAppID: '1:499791612215:ios:90ad15255202af218172b2',

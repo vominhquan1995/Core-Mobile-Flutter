@@ -7,7 +7,6 @@ import 'package:Core/core/translate/public.dart';
 import 'package:Core/core/page-core/widget_custom.dart';
 import 'package:Core/utils/index.dart';
 import 'package:Core/widgets/ngon_ngu/ngon_ngu.dart';
-import 'package:Core/widgets/tai_khoan/tai_khoan_variable.dart';
 import 'package:Core/widgets/tai_khoan/widgets/item.dart';
 import 'package:Core/widgets/tai_khoan/widgets/item_quanly.dart';
 import 'package:Core/widgets/tai_khoan/widgets/item_user_thuong.dart';
