@@ -1,0 +1,12 @@
+<svg id="cart-confirm" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25">
+  <g id="Group_411" data-name="Group 411">
+    <g id="Group_410" data-name="Group 410">
+      <path id="Path_4442" data-name="Path 4442" d="M12.5,0A12.5,12.5,0,1,0,25,12.5,12.483,12.483,0,0,0,12.5,0Zm0,23.329A10.829,10.829,0,1,1,23.329,12.5,10.805,10.805,0,0,1,12.5,23.329Z" fill="#8c8c8c"/>
+    </g>
+  </g>
+  <g id="Group_413" data-name="Group 413" transform="translate(3.927 6.89)">
+    <g id="Group_412" data-name="Group 412" transform="translate(0)">
+      <path id="Path_4443" data-name="Path 4443" d="M144.905,176.214a1.116,1.116,0,0,0-1.6,0l-8.8,8.8-4.457-4.457a1.135,1.135,0,0,0-1.6,1.6l5.259,5.259a1.035,1.035,0,0,0,.8.34,1.048,1.048,0,0,0,.8-.34l9.6-9.6A1.117,1.117,0,0,0,144.905,176.214Z" transform="translate(-128.098 -175.874)" fill="#8c8c8c"/>
+    </g>
+  </g>
+</svg>

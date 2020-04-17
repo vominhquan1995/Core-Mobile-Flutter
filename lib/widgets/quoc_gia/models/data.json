@@ -1,0 +1,22 @@
+{
+    "result": [
+        {
+            "quoc_gia_id": "9",
+            "quoc_gia_name": "VIETNAM",
+            "ma_vung": "VN",
+            "locale": "vi",
+            "ti_gia_tien_te": "23000.00000000",
+            "current_status": "active",
+            "ky_hieu_tien_te": "đ"
+        },
+        {
+            "quoc_gia_id": "6",
+            "quoc_gia_name": "CAMBODIA",
+            "ma_vung": "KH",
+            "locale": "km",
+            "ti_gia_tien_te": "1.00000000",
+            "current_status": "active",
+            "ky_hieu_tien_te": "USD"
+        }
+    ]
+}

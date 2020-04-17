@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="33" height="29.636" viewBox="0 0 33 29.636">
+  <g id="Commission" transform="translate(-2 -5)">
+    <g id="Group_462" data-name="Group 462" transform="translate(2 23.807)">
+      <g id="Group_457" data-name="Group 457" transform="translate(26.97 1.938)">
+        <rect id="Rectangle_825" data-name="Rectangle 825" width="1" height="7" transform="translate(0.03 0.254)" fill="#edeff1"/>
+      </g>
+      <g id="Group_458" data-name="Group 458" transform="translate(28.007 1.938)">
+        <rect id="Rectangle_826" data-name="Rectangle 826" width="5" height="7" transform="translate(-0.007 0.254)" fill="#80d6fb"/>
+      </g>
+      <g id="Group_459" data-name="Group 459">
+        <path id="Path_4512" data-name="Path 4512" d="M28.786,40.28c-.82-1.608-3.1-2.28-4.559-2.28a5.6,5.6,0,0,0-4.559,2.28H14.538a1.71,1.71,0,1,0,0,3.42h-1.71L5.7,39.465a2.28,2.28,0,0,0-3.07.69l-.442.662A1.14,1.14,0,0,0,2.508,42.4l9.177,6.047a2.267,2.267,0,0,0,1.261.383h16.98V40.28Z" transform="translate(-2 -38)" fill="#ffd3b3"/>
+      </g>
+      <g id="Group_460" data-name="Group 460" transform="translate(11.273 5.129)">
+        <path id="Path_4513" data-name="Path 4513" d="M21.779,47a1.7,1.7,0,0,0,1.266.57h5.7V47Z" transform="translate(-21.779 -47)" fill="#fcb98b"/>
+      </g>
+      <g id="Group_461" data-name="Group 461" transform="translate(26.97 1.938)">
+        <rect id="Rectangle_827" data-name="Rectangle 827" width="1" height="7" transform="translate(0.03 0.254)" fill="#d3d3d3"/>
+      </g>
+    </g>
+    <g id="Group_464" data-name="Group 464" transform="translate(5.112 5)">
+      <g id="Group_463" data-name="Group 463" transform="translate(0)">
+        <circle id="Ellipse_30" data-name="Ellipse 30" cx="8" cy="8" r="8" transform="translate(-0.112)" fill="#ffe352"/>
+      </g>
+      <path id="Path_4514" data-name="Path 4514" d="M18.274,13.129h-1.71a1.425,1.425,0,0,1,0-2.85h1.425a1.712,1.712,0,0,1,1.71,1.71h1.14a2.853,2.853,0,0,0-2.85-2.85V8H16.85V9.14h-.285a2.565,2.565,0,0,0,0,5.129h1.71a1.425,1.425,0,1,1,0,2.85H16.85a1.712,1.712,0,0,1-1.71-1.71H14a2.853,2.853,0,0,0,2.85,2.85V19.4h1.14v-1.14h.285a2.565,2.565,0,0,0,0-5.129Z" transform="translate(-10.273 -6.29)" fill="#6e83b7"/>
+    </g>
+    <g id="Group_469" data-name="Group 469" transform="translate(16.522 13.298)">
+      <g id="Group_465" data-name="Group 465" transform="translate(0 0)">
+        <ellipse id="Ellipse_31" data-name="Ellipse 31" cx="4.5" cy="5.5" rx="4.5" ry="5.5" transform="translate(0.478 -0.298)" fill="#6e83b7"/>
+      </g>
+      <g id="Group_466" data-name="Group 466" transform="translate(4.149 6.224)">
+        <ellipse id="Ellipse_32" data-name="Ellipse 32" cx="1" cy="0.5" rx="1" ry="0.5" transform="translate(0.329 0.478)" fill="#edeff1"/>
+      </g>
+      <g id="Group_467" data-name="Group 467" transform="translate(1.037 2.075)">
+        <ellipse id="Ellipse_33" data-name="Ellipse 33" cx="1.5" cy="0.5" rx="1.5" ry="0.5" transform="translate(0.441 -0.373)" fill="#edeff1"/>
+      </g>
+      <g id="Group_468" data-name="Group 468" transform="translate(1.033 2.127)">
+        <rect id="Rectangle_828" data-name="Rectangle 828" width="1.14" height="6.448" transform="translate(4.559) rotate(45)" fill="#edeff1"/>
+      </g>
+    </g>
+  </g>
+</svg>

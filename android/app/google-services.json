@@ -1,0 +1,72 @@
+{
+  "project_info": {
+    "project_number": "499791612215",
+    "firebase_url": "https://midas-beauty-line.firebaseio.com",
+    "project_id": "midas-beauty-line",
+    "storage_bucket": "midas-beauty-line.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:499791612215:android:8cf9aabd70950c678172b2",
+        "android_client_info": {
+          "package_name": "com.midasbeautyline.vn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "499791612215-a4on077tqit1hau9u7u70h7hgqirsnrf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.midasbeautyline.vn",
+            "certificate_hash": "d3e9864eaf087737d1cf4a4d6d560a91e5827172"
+          }
+        },
+        {
+          "client_id": "499791612215-d5imgm7akgd168q3cn1ibei1e7h3skem.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.midasbeautyline.vn",
+            "certificate_hash": "054b61341c9afa65167232cc297aeaf7f7b01860"
+          }
+        },
+        {
+          "client_id": "499791612215-kqn7pukt2a0jmf18kpnb7smeulorntof.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.midasbeautyline.vn",
+            "certificate_hash": "07148d9a3e1661daa6d9d1442759fd30c761153b"
+          }
+        },
+        {
+          "client_id": "499791612215-4ldg6jld922tqndaounbbmf6ol1hk78m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.midasbeautyline.vn",
+            "certificate_hash": "be52262fc752b06fb4e90299a661377834d9e1aa"
+          }
+        },
+        {
+          "client_id": "499791612215-u2luqbl9a10vkdht5kgik8mgiva6ts83.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMx1GA925JCv9H4WdiXKgzdA_HRGmQObE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "499791612215-u2luqbl9a10vkdht5kgik8mgiva6ts83.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
